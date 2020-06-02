@@ -1,4 +1,48 @@
 ---
 label: Event
 hide_body: false
-fields: []
+fields:
+- name: speaker
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Neil Gershenfled
+    - " Sherry Lassiter"
+    - Blair Evans
+    - Tomas Diez
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Speaker
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: picture
+  type: file
+  config:
+    maxSize: 64
+  label: Picture
+- name: start_time
+  type: datetime
+  label: Start time
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: end_time
+  type: datetime
+  label: End time
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
