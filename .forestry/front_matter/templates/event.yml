@@ -8,8 +8,8 @@ fields:
   config:
     required: false
     options:
-    - Neil Gershenfled
-    - " Sherry Lassiter"
+    - Neil Gershenfeld
+    - Sherry Lassiter
     - Blair Evans
     - Tomas Diez
     source:
