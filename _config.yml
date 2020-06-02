@@ -24,6 +24,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+collections:
+  posts:
+    title: Posts
+    output: true
+
+permalink: :title
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
