@@ -5,32 +5,32 @@
 layout: default
 ---
 
-The index
-
 <ul class="list-unstyled">
   {% assign sorted = site.posts | sort: 'start_time' %}
   {% for post in sorted %}
-  <li class="my-5">
+  <li class="my-5 d-flex">
 
-    <div class="post-header mb-3">
-      <h3>
-        {{ post.title }}
-      </h3>
-      <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <div class="">
-        <p>{{post.speaker}}</p>
-        <p>{{post.title}}</p>
-        <p>
-        Start: {{post.start_time}}
-        </p>
-        <p>
-        End: {{post.end_time}}
-        </p>
-      </div>
+    <div class="">
+      <h3>{{post.title}}</h3>
+      <img src="{{post.picture}}" class="img-fluid" style="max-height:90px;" alt=""/>
+      <h5 class="mt-1">
+        {{post.speaker}}
+      </h5>
+      <ul class="list-unstyled">
+        <li>
+          Start: {{post.start_time}}
+        </li>
+        <li>
+          Start: {{post.start_time | date: "%b %d, %H:%M" }}
+        </li>
+        <li>
+          End: {{post.end_time | date: "%b %d, %H:%M" }}
+        </li>
+      </ul>
     </div>
-
-    {{site.content}}
+    <div class="mt-5 ml-4">
+      {{post.content}}
+    </div>
   </li>
   {% endfor %}
 </ul>
