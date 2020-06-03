@@ -8,15 +8,15 @@ layout: default
 The index
 
 <ul class="list-unstyled">
-  {% assign sorted = (site.posts | sort: 'start_time') %}
+  {% assign sorted = site.posts | sort: 'start_time' %}
   {% for post in sorted %}
   <li class="my-5">
 
     <div class="post-header mb-3">
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        {{ post.title }}
+      </h3>
+      <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
 
       <div class="">
         <p>{{post.speaker}}</p>
@@ -30,6 +30,7 @@ The index
       </div>
     </div>
 
+    {{site.content}}
   </li>
   {% endfor %}
 </ul>
