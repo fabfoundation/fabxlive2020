@@ -8,7 +8,8 @@ layout: default
 The index
 
 <ul class="list-unstyled">
-  {% for post in paginator.posts %}
+  {% assign sorted = (site.posts | sort: 'start_time') %}
+  {% for post in sorted %}
   <li class="my-5">
 
     <div class="post-header mb-3">
