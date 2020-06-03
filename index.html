@@ -7,11 +7,11 @@ layout: default
 
 The index
 
-<ul class="post-list list-unstyled">
+<ul class="list-unstyled">
   {% for post in paginator.posts %}
   <li class="my-5">
 
-    <div class="post-header text-center mb-3">
+    <div class="post-header mb-3">
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
