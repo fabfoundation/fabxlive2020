@@ -5,13 +5,13 @@
 layout: default
 ---
 
-<ul class="list-unstyled">
+<section>
   {% assign sorted = site.posts | sort: 'start_time' %}
   {% for post in sorted %}
-  <li class="my-5 d-flex">
+  <h3 class="mt-5">{{post.title}}</h3>
+  <article class="row">
 
-    <div class="">
-      <h3>{{post.title}}</h3>
+    <div class="col-md-5 col-lg-4 mb-4">
       <img src="{{post.picture}}" class="img-fluid" style="max-height:90px;" alt=""/>
       <h5 class="mt-1">
         {{post.speaker}}
@@ -28,11 +28,9 @@ layout: default
         </li>
       </ul>
     </div>
-    <div class="mt-5 ml-4">
+    <div class="col-md-7 col-lg-8">
       {{post.content}}
     </div>
-  </li>
+  </article>
   {% endfor %}
-</ul>
-
-
+</section>
