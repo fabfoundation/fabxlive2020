@@ -6,30 +6,23 @@ layout: default
 ---
 
 <section>
-  {% assign sorted = site.posts | sort: 'start_time' %}
-  {% for post in sorted %}
-  <h3 class="mt-5">{{post.title}}</h3>
+  {% for item in site.events %}
+  <h3 class="mt-5">{{item.title}}</h3>
   <article class="row">
 
     <div class="col-md-5 col-lg-4 mb-4">
-      <img src="{{ post.picture | relative_url }}" class="img-fluid" style="max-height:90px;" alt=""/>
+      <img src="{{ item.picture | relative_url }}" class="img-fluid" style="max-height:90px;" alt=""/>
       <h5 class="mt-1">
-        {{post.speaker}}
+        {{item.speaker}}
       </h5>
       <ul class="list-unstyled">
         <li>
-          Start: {{post.start_time}}
-        </li>
-        <li>
-          Start: {{post.start_time | date: "%b %d, %H:%M" }}
-        </li>
-        <li>
-          End: {{post.end_time | date: "%b %d, %H:%M" }}
+          Start: {{item.date | date: "%b %d, %H:%M" }}
         </li>
       </ul>
     </div>
     <div class="col-md-7 col-lg-8">
-      {{post.content}}
+      {{item.content}}
     </div>
   </article>
   {% endfor %}

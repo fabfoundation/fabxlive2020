@@ -25,8 +25,7 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  posts:
-    title: Posts
+  events:
     output: true
 
 permalink: :title
