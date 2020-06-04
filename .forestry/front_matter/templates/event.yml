@@ -37,15 +37,5 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: end_time
-  type: datetime
-  label: End time
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
 pages:
 - _posts/2020-06-02-test-title.md
-- _posts/event-4.md
