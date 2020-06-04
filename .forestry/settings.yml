@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: event
+  path: _events
   label: Event
   create: documents
   match: "**/*"
@@ -15,7 +15,7 @@ sections:
   label: Pages
   create: all
 - type: jekyll-posts
-  label: Events
+  label: Posts
   create: all
 upload_dir: uploads
 public_path: "/uploads"
