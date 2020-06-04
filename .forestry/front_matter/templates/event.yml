@@ -2,6 +2,15 @@
 label: Event
 hide_body: false
 fields:
+- name: date
+  type: datetime
+  label: Date
+  description: Start time of the talk
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: speaker
   type: select
   default: ''
@@ -28,15 +37,6 @@ fields:
   config:
     maxSize: 64
   label: Picture
-- name: date
-  type: datetime
-  label: Date
-  description: Start time of the talk
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
 pages:
 - _events/community-response.md
 - _events/supporting-communities.md
