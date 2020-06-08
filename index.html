@@ -6,6 +6,7 @@ layout: default
 ---
 
 <section>
+  <p class="text-center">Current time: <span id="current-time"></span> </p>
   {% for item in site.events %}
   <h3 class="mt-5">{{item.title}}</h3>
   <article class="row">
@@ -17,7 +18,13 @@ layout: default
       </h5>
       <ul class="list-unstyled">
         <li>
-          Start: {{item.date | date: "%b %d, %H:%M" }}
+          Start:
+          <strong>
+            {{item.date | date: "%b %-d, %H:%M %Z" }}
+          </strong>
+          <span class="d-block"><span id="countdown"></span>..</span>
+          <span class="the-date d-block">{{item.date}}</span>
+          <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
         </li>
       </ul>
     </div>
@@ -27,3 +34,13 @@ layout: default
   </article>
   {% endfor %}
 </section>
+
+<script charset="utf-8">
+  current_time = moment().unix();
+  unix_time = document.querySelector('.the-date-unix').innerText;
+  event_time = parseInt(unix_time)
+  diffTime = event_time - current_time;
+
+  document.getElementById('current-time').innerText = moment()
+  document.getElementById('countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
+</script>
