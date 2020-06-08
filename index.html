@@ -11,7 +11,7 @@ layout: default
   <h3 class="mt-5">{{item.title}}</h3>
   <article class="row">
 
-    <div class="col-md-5 col-lg-4 mb-4">
+    <div class="col-md-5 col-lg-4 mb-4 speaker">
       <img src="{{ item.picture | absolute_url }}" class="img-fluid" style="max-height:90px;" alt=""/>
       <h5 class="mt-1">
         {{item.speaker}}
@@ -22,7 +22,7 @@ layout: default
           <strong>
             {{item.date | date: "%b %-d, %H:%M %Z" }}
           </strong>
-          <span class="d-block"><span id="countdown"></span>..</span>
+          <span class="d-block"><span class="countdown"></span>..</span>
           <span class="the-date d-block">{{item.date}}</span>
           <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
         </li>
@@ -37,10 +37,19 @@ layout: default
 
 <script charset="utf-8">
   current_time = moment().unix();
-  unix_time = document.querySelector('.the-date-unix').innerText;
-  event_time = parseInt(unix_time)
-  diffTime = event_time - current_time;
 
+  // Set the current date at the top
   document.getElementById('current-time').innerText = moment()
-  document.getElementById('countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
+
+  // Get all speaker nodes, and calculate countdown
+  speakers = document.querySelectorAll('.speaker')
+  speakers.forEach(calculateCountdown);
+
+  function calculateCountdown(item, index) {
+    unix_time = item.querySelector('.the-date-unix').innerText;
+    event_time = parseInt(unix_time)
+    diffTime = event_time - current_time;
+    item.querySelector('.countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
+  }
+
 </script>
