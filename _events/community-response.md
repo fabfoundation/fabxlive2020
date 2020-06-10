@@ -1,11 +1,10 @@
 ---
-speaker: Neil Gershenfeld
+speaker: _speakers/community-response.md
 title: Community Response
 picture: "/uploads/01_neil.jpg"
-date: 2020-07-27 13:00:00 +0000
+date: 2020-07-27T13:00:00.000+00:00
 
 ---
-
 Prof. Neil Gershenfeld is the Director of MIT's Center for Bits and Atoms, where his unique laboratory is breaking down boundaries between the digital and physical worlds, from pioneering quantum computing to digital fabrication to the Internet of Things.
 
 Technology from his lab has been seen and used in settings including New York's Museum of Modern Art and rural Indian villages, the White House and the World Economic Forum, inner-city community centers and automobile safety systems, Las Vegas shows and Sami herds.
@@ -17,4 +16,3 @@ He is a Fellow of the American Physical Society, has been named one of Scientifi
 He's been called the intellectual father of the maker movement, founding a growing global network of over one thousand fab labs that provide widespread access to prototype tools for personal fabrication, directing the Fab Academy for distributed research and education in the principles and practices of digital fabrication, and chairing the Fab Foundation.
 
 Dr. Gershenfeld has a BA in Physics with High Honors from Swarthmore College, a Ph.D. in Applied Physics from Cornell University, honorary doctorates from Swarthmore College, Strathclyde University and the University of Antwerp, was a Junior Fellow of the Harvard University Society of Fellows, and a member of the research staff at Bell Labs.
-
