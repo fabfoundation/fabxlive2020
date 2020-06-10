@@ -1,4 +1,6 @@
 ---
+- name: ''
+  picture: ''
 - name: Blair
   picture: "/uploads/04_blair.jpeg"
 - name: Joe
