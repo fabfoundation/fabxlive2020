@@ -22,11 +22,13 @@ fields:
     - Blair Evans
     - Tomas Diez
     source:
-      type: simple
-      section: 
-      file: 
+      type: documents
+      section: speakers
+      file: _speakers/test-speaker.md
       path: 
   label: Speaker
+  description: If the speaker does not yet exist, you need to create a new one from
+    the <strong>Speakers</strong> section on the left.
 - name: title
   type: text
   config:
