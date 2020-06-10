@@ -1,0 +1,21 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<section>
+  <p>Number of speakers: {{ site.speakers.size }}</p>
+  {% for item in site.speakers %}
+  <h3 class="mt-5">{{item.name}}</h3>
+  <article class="row">
+    <div class="col-md-5 col-lg-4 mb-4">
+      <img src="{{ item.picture | absolute_url }}" class="img-fluid" style="max-height:90px;" alt=""/>
+    </div>
+    <div class="col-md-7 col-lg-8">
+      {{item.content}}
+    </div>
+  </article>
+  {% endfor %}
+</section>
