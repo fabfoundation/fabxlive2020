@@ -1,7 +1,7 @@
 ---
 label: Event
 hide_body: false
-display_field: speaker
+display_field: title
 fields:
 - name: date
   type: datetime
