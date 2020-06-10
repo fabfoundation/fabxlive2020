@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/people.yml
   label: People
-  match: "**/*"
 - type: directory
   path: _speakers
   label: Speakers
