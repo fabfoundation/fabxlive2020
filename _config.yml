@@ -27,6 +27,8 @@ plugins:
 collections:
   events:
     output: true
+  speakers:
+    output: true
 
 permalink: :title
 

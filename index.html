@@ -6,7 +6,9 @@ layout: default
 ---
 
 <section>
-  <p class="text-center">Current time: <span id="current-time"></span> </p>
+  <p>Number of speakers: {{ site.speakers.size }}</p>
+  <p>Number of events: {{ site.events.size }}</p>
+  <p>Current time: <span id="current-time"></span> </p>
   {% for item in site.events %}
   <h3 class="mt-5">{{item.title}}</h3>
   <article class="row">
