@@ -1,9 +1,9 @@
 ---
 - name: Testing
-  github: nono
+  picture: nono
 - name: Eric Mill
-  github: konklone
+  picture: konklone
 - name: Parker Moore
-  github: parkr
+  picture: parkr
 - name: Liu Fengyun
-  github: liufengyun
+  picture: liufengyun
