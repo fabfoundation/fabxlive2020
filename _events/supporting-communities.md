@@ -1,11 +1,10 @@
 ---
-speaker: Sherry Lassiter
+speaker: _speakers/test-speaker.md
 title: Supporting Communities
 picture: "/uploads/02_sherry.jpg"
-date: 2020-07-28 13:00:00 +0000
+date: 2020-07-28T13:00:00.000+00:00
 
 ---
-
 Sherry Lassiter is one of the architects of the MIT global initiative for field on-site technology development, the Fab Lab program.
 
 A Fab Lab, or as users like to call it, fabulous laboratory, is a rapid prototyping platform for technical education, innovation, and personal expression.
