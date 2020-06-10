@@ -1,3 +1,7 @@
 ---
-name: Blair
-picture: "/uploads/04_blair.jpeg"
+- name: Blair
+  picture: "/uploads/04_blair.jpeg"
+- name: Joe
+  picture: "/uploads/04_blair.jpeg"
+- name: Alice
+  picture: "/uploads/04_blair.jpeg"
