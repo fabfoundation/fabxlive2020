@@ -1,4 +1,16 @@
 ---
 label: Speakers
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Name of the speaker
+- name: picture
+  type: file
+  config:
+    maxSize: 64
+  label: Picture
+  description: Picture of the speaker
