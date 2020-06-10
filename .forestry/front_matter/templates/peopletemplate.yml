@@ -12,3 +12,4 @@ fields:
   - type: file
     name: picture
     label: picture
+    description: Select or upload a picture
