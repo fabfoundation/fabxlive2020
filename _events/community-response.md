@@ -1,5 +1,5 @@
 ---
-speaker: _speakers/community-response.md
+speaker: _speakers/neil.md
 title: Community Response
 picture: "/uploads/01_neil.jpg"
 date: 2020-07-27T13:00:00.000+00:00
