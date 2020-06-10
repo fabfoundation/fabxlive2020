@@ -22,7 +22,7 @@ fields:
     - Blair Evans
     - Tomas Diez
     source:
-      type: documents
+      type: pages
       section: speakers
       file: _speakers/test-speaker.md
       path: 
