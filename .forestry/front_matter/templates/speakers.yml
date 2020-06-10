@@ -16,4 +16,5 @@ fields:
   label: Picture
   description: Picture of the speaker
 pages:
+- _data/people.yml
 - _speakers/test-speaker.md
