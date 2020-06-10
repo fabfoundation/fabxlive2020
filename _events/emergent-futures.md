@@ -1,11 +1,10 @@
 ---
-speaker: Tomas Diez
+speaker: _speakers/tomas.md
 title: Emergent Futures
 picture: "/uploads/03_tomas.jpg"
-date: 2020-07-30 13:00:00 +0000
+date: 2020-07-30T13:00:00.000+00:00
 
 ---
-
 Tomas Diez is a Venezuelan Urbanist specialized in digital fabrication and its implications in the future of cities and society.
 
 He is co-founder of Fab Lab Barcelona (http://www.fablabbcn.org) at the Institute for Advanced Architecture of Catalonia (IAAC)
