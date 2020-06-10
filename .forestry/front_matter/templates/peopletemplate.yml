@@ -13,3 +13,5 @@ fields:
     name: picture
     label: picture
     description: Select or upload a picture
+  config:
+    labelField: name
