@@ -1,6 +1,6 @@
 ---
 name: Test speaker
-picture: "/uploads/03_tomas.jpg"
+picture: "/uploads/profile-example.png"
 
 ---
 Test speaker is the CEO
