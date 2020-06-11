@@ -7,8 +7,9 @@ title: Program
 ---
 
 <section>
-  <p>Number of events: {{ site.events.size }}</p>
-  <p>Current time: <span id="current-time"></span> </p>
+  <p>Number of events: <strong>{{ site.events.size }}</strong></p>
+  <p>Current time: <strong id="current-time"></strong> </p>
+  <p>Current timezone: <strong id="current-timezone"></strong> </p>
   {% for item in site.events %}
   <h3 class="mt-5">{{item.title}}</h3>
   <article class="row">
@@ -25,6 +26,7 @@ title: Program
             {{item.date | date: "%b %-d, %H:%M %Z" }}
           </strong>
           <span class="d-block">Countdown: <strong class="countdown"></strong></span>
+          <span class="the-date d-block">{{item.date}}</span>
           <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
         </li>
       </ul>
@@ -39,9 +41,6 @@ title: Program
 <script charset="utf-8">
   current_time = moment().unix();
 
-  // Set the current date at the top
-  document.getElementById('current-time').innerText = moment()
-
   // Get all speaker nodes, and calculate countdown
   speakers = document.querySelectorAll('.speaker')
   speakers.forEach(calculateCountdown);
@@ -53,4 +52,7 @@ title: Program
     item.querySelector('.countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
   }
 
+  // Set the current date at the top
+  document.getElementById('current-time').innerText = moment()
+  document.getElementById('current-timezone').innerText = Intl.DateTimeFormat().resolvedOptions().timeZone;
 </script>
