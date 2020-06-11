@@ -3,11 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Events
+title: Program
 ---
 
 <section>
-  <p>Number of speakers: {{ site.speakers.size }}</p>
   <p>Number of events: {{ site.events.size }}</p>
   <p>Current time: <span id="current-time"></span> </p>
   {% for item in site.events %}
@@ -25,8 +24,7 @@ title: Events
           <strong>
             {{item.date | date: "%b %-d, %H:%M %Z" }}
           </strong>
-          <span class="d-block"><span class="countdown"></span>..</span>
-          <span class="the-date d-block">{{item.date}}</span>
+          <span class="d-block">Countdown: <strong class="countdown"></strong></span>
           <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
         </li>
       </ul>
