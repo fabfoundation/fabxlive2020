@@ -9,12 +9,11 @@ fields:
     required: false
   label: Name
   description: Name of the speaker
-- name: title
+- name: institution
   type: text
   config:
     required: false
-  label: Title
-  description: Founder &amp; CEO ...
+  label: Institution
 - name: picture
   type: file
   config:
