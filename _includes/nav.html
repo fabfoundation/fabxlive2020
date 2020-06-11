@@ -11,8 +11,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-center text-uppercase" id="navbarSupportedContent">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse justify-content-between text-uppercase" id="navbarSupportedContent">
+      <ul class="navbar-nav w-100 justify-content-center">
         {%- if page_paths -%}
         {%- for path in page_paths -%}
         <li class="nav-item">
@@ -24,6 +24,7 @@
         {%- endfor -%}
         {%- endif -%}
       </ul>
+      <a class="text-white" href="#">REGISTER</a>
     </div>
   </div>
 </nav>
