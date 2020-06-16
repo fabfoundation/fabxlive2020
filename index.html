@@ -104,6 +104,17 @@ title: Program
 <section class="my-5" id="speakers">
   <div class="container">
     <h1 class="text-muted">SPEAKERS</h1>
+    <div class="row">
+
+      {% for item in site.speakers %}
+      <article class="col-lg-6 col-xl-3 text-center">
+        <img src="{{ item.picture | absolute_url }}" class="img-fluid circle" style="max-height:90px;" alt=""/>
+        <p class="mt-1 font-weight-bold">{{item.name}}</p>
+        <h6>{{item.institution}}</h6>
+      </article>
+      {% endfor %}
+
+    </div>
   </div>
 </section>
 
