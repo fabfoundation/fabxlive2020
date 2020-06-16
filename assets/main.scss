@@ -3,7 +3,7 @@
 ---
 
 .btn {
-  border-radius: unset;
+  border-radius: 2px;
 }
 
 .bg-cyan {
@@ -28,4 +28,14 @@
       color: white;
     }
   }
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.box {
+  text-align: center;
+  height: 260px;
+  width: 260px;
 }
