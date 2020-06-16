@@ -6,7 +6,13 @@ body {
   font-family: 'Karla';
 }
 
+h4 {
+  font-weight: bold;
+}
+
 .btn {
+  font-family: 'Roboto';
+  font-weight: 500;
   border-radius: 2px;
 }
 
@@ -26,10 +32,15 @@ body {
   background: #3A3996;
 }
 
+.text-yellow {
+  color: #F2E7AE;
+}
+
 .navbar-dark{
   .nav-item{
     .nav-link {
       color: white;
+      font-weight: bold;
     }
   }
 }
@@ -42,4 +53,9 @@ body {
   text-align: center;
   height: 260px;
   width: 260px;
+}
+
+.footer-header {
+  font-family:'Montserrat';
+  font-weight: 800;
 }
