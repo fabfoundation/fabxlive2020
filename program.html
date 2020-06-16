@@ -1,0 +1,59 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: Program
+---
+
+<section>
+  <p>Number of events: <strong>{{ site.events.size }}</strong></p>
+  <p>Current time: <strong id="current-time"></strong> </p>
+  <p>Current timezone: <strong id="current-timezone"></strong> </p>
+  {% for item in site.events %}
+  <h3 class="mt-5">{{item.title}}</h3>
+  <article class="row">
+
+    <div class="col-md-5 col-lg-4 mb-4 speaker">
+      <img src="{{ item.picture | absolute_url }}" class="img-fluid" style="max-height:90px;" alt=""/>
+      <h5 class="mt-1">
+        {{item.speaker}}
+      </h5>
+      <ul class="list-unstyled">
+        <li>
+          Start:
+          <strong>
+            {{item.date | date: "%b %-d, %H:%M %Z" }}
+          </strong>
+          <span class="d-block">Countdown: <strong class="countdown"></strong></span>
+          <small class="the-date d-block">{{item.date}}</small>
+          <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-lg-8">
+      {{item.content}}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<script charset="utf-8">
+  current_time = moment().unix();
+
+  // Get all speaker nodes, and calculate countdown
+  speakers = document.querySelectorAll('.speaker')
+  speakers.forEach(calculateCountdown);
+
+  function calculateCountdown(item, index) {
+    unix_time = item.querySelector('.the-date-unix').innerText;
+    event_time = parseInt(unix_time)
+    diffTime = event_time - current_time;
+    item.querySelector('.countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
+  }
+
+  // Set the current date at the top
+  document.getElementById('current-time').innerText = moment()
+  document.getElementById('current-timezone').innerText = Intl.DateTimeFormat().resolvedOptions().timeZone;
+</script>
+

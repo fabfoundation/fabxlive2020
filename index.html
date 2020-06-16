@@ -6,53 +6,124 @@ layout: default
 title: Program
 ---
 
-<section>
-  <p>Number of events: <strong>{{ site.events.size }}</strong></p>
-  <p>Current time: <strong id="current-time"></strong> </p>
-  <p>Current timezone: <strong id="current-timezone"></strong> </p>
-  {% for item in site.events %}
-  <h3 class="mt-5">{{item.title}}</h3>
-  <article class="row">
-
-    <div class="col-md-5 col-lg-4 mb-4 speaker">
-      <img src="{{ item.picture | absolute_url }}" class="img-fluid" style="max-height:90px;" alt=""/>
-      <h5 class="mt-1">
-        {{item.speaker}}
-      </h5>
-      <ul class="list-unstyled">
-        <li>
-          Start:
-          <strong>
-            {{item.date | date: "%b %-d, %H:%M %Z" }}
-          </strong>
-          <span class="d-block">Countdown: <strong class="countdown"></strong></span>
-          <small class="the-date d-block">{{item.date}}</small>
-          <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-7 col-lg-8">
-      {{item.content}}
-    </div>
-  </article>
-  {% endfor %}
+<section class="py-5">
+  <h1>FAB LIVE</h1>
+  <div class="bg-blue d-inline-block text-white p-5 ml-5">
+    <h2>July 27-31</h2>
+  </div>
 </section>
 
-<script charset="utf-8">
-  current_time = moment().unix();
+<section class="bg-cyan text-white py-5" id="about">
+  <div class="container">
+    <h1>ABOUT</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+        FABxLive 2020 is an online event that tackles the reality of a future happening now under global, economic, social and technological developments due to a Pandemic crisis known as a COVID-19 and how the Fab Lab Network as a global community moved forward and developed solutions that can drive a prospective scenario for our future resilience through distributed manufacturing and solidarity .  
+        </p>
 
-  // Get all speaker nodes, and calculate countdown
-  speakers = document.querySelectorAll('.speaker')
-  speakers.forEach(calculateCountdown);
+        <p>
+        In this special edition of the Fab Event International Conference, we will bring together members of the international Fab Lab Network, as well as government representatives, academic researchers and experts in the field of digital fabrication, to present, envision, discuss, and create a community around digital fabrication, manufacturing, technology, innovation and possible solutions on how to set the best principles and practices on digital fabrication.
+        </p>
 
-  function calculateCountdown(item, index) {
-    unix_time = item.querySelector('.the-date-unix').innerText;
-    event_time = parseInt(unix_time)
-    diffTime = event_time - current_time;
-    item.querySelector('.countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
-  }
+        <p>
+        The event is open to the community for proposals to self organize sessions that can be debates, talks, webinars around COVID-19 local community response, rebooting economies, supporting communities, emergent futures and can be targeted to different time zones and all languages.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <p>video</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  // Set the current date at the top
-  document.getElementById('current-time').innerText = moment()
-  document.getElementById('current-timezone').innerText = Intl.DateTimeFormat().resolvedOptions().timeZone;
-</script>
+
+<section class="text-grey py-5" id="themes">
+  <div class="container">
+    <h1 class="text-muted">THEMES</h1>
+    <div class="row">
+      <div class="col-lg-3">
+        <h4>GLOBAL RESPONSE ON CORONAVIRUS</h4>
+        <p>
+        FABxLive 2020 is an online event that tackles the reality of a future happening now under global, economic, social and technological developments due to a Pandemic crisis known as a COVID-19 and how the Fab Lab Network as a global community
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <h4>SUPPORTING COMMUNITIES</h4>
+        <p>
+        FABxLive 2020 is an online event that tackles the reality of a future happening now under global, economic, social and technological developments due to a Pandemic crisis known as a COVID-19 and how the Fab Lab Network as a global community
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <h4>REBOOTING ECONOMIES</h4>
+        <p>
+        FABxLive 2020 is an online event that tackles the reality of a future happening now under global, economic, social and technological developments due to a Pandemic crisis known as a COVID-19 and how the Fab Lab Network as a global community
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <h4>EMERGENT FUTURES</h4>
+        <p>
+        FABxLive 2020 is an online event that tackles the reality of a future happening now under global, economic, social and technological developments due to a Pandemic crisis known as a COVID-19 and how the Fab Lab Network as a global community
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cyan text-white py-5" id="participate">
+  <div class="container">
+    <h1>PARTICIPATE</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        buttons
+      </div>
+      <div class="col-lg-6">
+        <p>
+        FABX Events are a way to integrate all the knowledge acquired during the year of over more than 2,000 Fab Labs in the world. The participation for content is based on what active members propose. This is a space for networking among speakers, workshop leaders, and participants, and what they can make in this new world of digital fabrication. This is a space to brainstorm and share your projects, workshops, and ideas, and acknowledge that all the work will be seen and appreciated by everyone. Click the link above to apply for a theoretical workshop/working group, workshops and papers. Please note that anything you submit must be designed for an online format and online interaction, and you do have the option of pre-recording or leading something Live.
+        </p>
+
+        <p>
+        Read each description carefully so that you are applying in the correct format.
+        </p>
+        <div class="text-center">
+          <a class="btn mx-auto bg-yellow shadow px-4" href="#" target="_blank">APPLY NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5" id="speakers">
+  <div class="container">
+    <h1 class="text-muted">SPEAKERS</h1>
+  </div>
+</section>
+
+<section class="bg-cyan text-white py-5" id="pitch">
+  <div class="container">
+    <h1>PITCH</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+        FABxLive 2020 is an online event that tackles the reality of a future happening now under global, economic, social and technological developments due to a Pandemic crisis known as a COVID-19 and how the Fab Lab Network as a global community moved forward and developed solutions that can drive a prospective scenario for our future resilience through distributed manufacturing and solidarity .  
+        </p>
+        <p>
+        In this special edition of the Fab Event International Conference, we will bring together members of the international Fab Lab Network, as well as government representatives, academic researchers and experts in the field of digital fabrication, to present, envision, discuss, and create a community around digital fabrication, manufacturing, technology, innovation and possible solutions on how to set the best principles and practices on digital fabrication.
+        </p>
+        <div class="text-center">
+          <a class="btn mx-auto bg-yellow shadow px-4" href="#" target="_blank">APPLY NOW</a>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        video
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5">
+  <div class="container">
+    <h1 class="text-muted">THANKS</h1>
+  </div>
+</section>

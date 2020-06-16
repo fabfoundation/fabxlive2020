@@ -1,3 +1,31 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+.btn {
+  border-radius: unset;
+}
+
+.bg-cyan {
+  background: #33B3C1;
+}
+
+.bg-yellow {
+  background: #F2E7AE;
+}
+
+.bg-red {
+  background: #ED1654;
+}
+
+.bg-blue {
+  background: #3A3996;
+}
+
+.navbar-dark{
+  .nav-item{
+    .nav-link {
+      color: white;
+    }
+  }
+}
