@@ -6,34 +6,22 @@ body {
   font-family: 'Karla';
 }
 
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 992px) {
+  h1 { font-size: 100px; }
+  h2 { font-size: 50px; }
+  h3 { font-size: 40px; }
+  h4 { font-size: 24px; }
+}
+
 h1 {
-  font-size: 100px;
-  font-weight: bold;
   color: #f2f2f2;
-  letter-spacing: 0.05em;
   margin-bottom: 40px;
 }
 
-h2 {
-  font-size: 50px;
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   letter-spacing: 0.05em;
-}
-
-h3 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-h5 {
-}
-
-h6 {
 }
 
 .btn {
