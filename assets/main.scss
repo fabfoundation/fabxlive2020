@@ -6,6 +6,12 @@ body {
   font-family: 'Karla';
 }
 
+.font-roboto {
+  font-family: 'Roboto';
+  font-weight: 500;
+  letter-spacing: 0.0357em;
+}
+
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 992px) {
   h1 { font-size: 100px; }
