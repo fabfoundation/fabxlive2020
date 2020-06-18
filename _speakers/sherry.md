@@ -1,6 +1,7 @@
 ---
 name: Sherry Lassiter
 picture: "/uploads/02_sherry.jpg"
+institution: Fab Foundation
 
 ---
 

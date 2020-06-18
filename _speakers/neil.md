@@ -1,6 +1,7 @@
 ---
 name: Neil Gershenfeld
 picture: "/uploads/01_neil.jpg"
+institution: MIT
 
 ---
 
