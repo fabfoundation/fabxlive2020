@@ -1,6 +1,6 @@
 ---
 name: Tomas Diez
-picture: "/uploads/03_tomas.jpg"
+picture: "/uploads/03_tomas.png"
 institution: Director of Fab Lab Barcelona
 
 ---

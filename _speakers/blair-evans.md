@@ -1,6 +1,6 @@
 ---
 name: Blair Evans
-picture: "/uploads/04_blair.jpeg"
+picture: "/uploads/04_blair.png"
 institution: Director
 
 ---
