@@ -122,49 +122,76 @@ title: FABxLive
 <section class="bg-cyan text-white py-5" id="participate">
   <div class="container">
     <h1>PARTICIPATE</h1>
-    <div class="row">
+    <article class="row">
       <div class="col-lg-6 mb-3">
-        <div class="text-center font-roboto">
-          <a class="d-block bg-white p-4 mb-2 shadow text-muted" href="#" target="_blank">ONLINE THEORETICAL WORKSHOPS</a>
-          <a class="d-block bg-white p-4 mb-2 shadow text-muted" href="#" target="_blank">ONLINE HANDS-ON WORKSHOPS</a>
-          <a class="d-block bg-white p-4 mb-2 shadow text-muted" href="#" target="_blank">FABERCISE</a>
-          <a class="d-block bg-white p-4 mb-2 shadow text-muted" href="#" target="_blank">FAB WORLD</a>
-          <a class="d-block bg-white p-4 mb-2 shadow text-muted" href="https://forms.gle/mFWFdA5w9xetrbUZA" target="_blank">GLOBAL FAB DAY</a>
-          <a class="d-block bg-white p-4 mb-2 shadow text-muted" href="https://forms.gle/rb6mx4DmKZBkJenp6" target="_blank">BECOME A VOLUNTEER</a>
+        <div class="text-center font-roboto nav flex-column">
+          <a class="d-block bg-white p-4 mb-2 shadow text-muted active" data-toggle="pill" id="pills-online-theoretical-tab" href="#pills-online-theoretical" >ONLINE THEORETICAL WORKSHOPS</a>
+          <a class="d-block bg-white p-4 mb-2 shadow text-muted"        data-toggle="pill" id="pills-online-hands-tab"       href="#pills-online-hands" >ONLINE HANDS-ON WORKSHOPS</a>
+          <a class="d-block bg-white p-4 mb-2 shadow text-muted"        data-toggle="pill" id="pills-fabercise-tab"          href="#pills-fabercise" >FABERCISE</a>
+          <a class="d-block bg-white p-4 mb-2 shadow text-muted"        data-toggle="pill" id="pills-fab-world-tab"          href="#pills-fab-world" >FAB WORLD</a>
+          <a class="d-block bg-white p-4 mb-2 shadow text-muted"        data-toggle="pill" id="pills-global-fab-tab"         href="#pills-global-fab" >GLOBAL FAB DAY</a>
+          <a class="d-block bg-white p-4 mb-2 shadow text-muted"        data-toggle="pill" id="pills-become-tab"             href="#pills-become" >BECOME A VOLUNTEER</a>
         </div>
       </div>
+
       <div class="col-lg-6">
-        <p>
-        FABX Events are a way to integrate all the knowledge acquired during the year of over more than 2,000 Fab Labs in the world.
-        The participation for content is based on what active members propose. This is a space for networking among speakers, workshop
-        leaders, and participants, and what they can make in this new world of digital fabrication. This is a space to brainstorm and
-        share your projects, workshops, and ideas, and acknowledge that all the work will be seen and appreciated by everyone.
-        Click the link above to apply for a theoretical workshop/working group, workshops and papers. Please note that anything you submit
-        must be designed for an online format and online interaction, and you do have the option of pre-recording or leading something Live.
-        </p>
+        <div class="tab-content bg-light-blue">
+          <div class="tab-pane fade show active" id="pills-online-theoretical">
+            <p>
+            Online Theoretical...
+            </p>
+            <p>
+            FABX Events are a way to integrate all the knowledge acquired during the year of over more than 2,000 Fab Labs in the world.
+            The participation for content is based on what active members propose. This is a space for networking among speakers, workshop
+            leaders, and participants, and what they can make in this new world of digital fabrication. This is a space to brainstorm and
+            share your projects, workshops, and ideas, and acknowledge that all the work will be seen and appreciated by everyone.
+            Click the link above to apply for a theoretical workshop/working group, workshops and papers. Please note that anything you submit
+            must be designed for an online format and online interaction, and you do have the option of pre-recording or leading something Live.
+            </p>
 
-        <p>
-        Read each description carefully so that you are applying in the correct format.
-        </p>
-        <div class="text-center">
-          <a class="btn mx-auto bg-yellow shadow px-4" href="" data-toggle="modal" data-target="#modalParticipate">APPLY NOW</a>
 
-          <!-- Modal -->
-          <div class="modal fade" id="modalParticipate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <a class="btn bg-yellow d-block mb-3" href="https://forms.gle/DuYXjBB6SKyiutYr9" target="_blank">Activities Application form</a>
-                  <a class="btn bg-yellow d-block mb-3" href="https://forms.gle/rb6mx4DmKZBkJenp6" target="_blank">Become a Volunteer</a>
-                  <a class="btn bg-yellow d-block mb-3" href="https://forms.gle/mFWFdA5w9xetrbUZA" target="_blank">Global Fab Day form</a>
-                </div>
-              </div>
+            <p>
+            Read each description carefully so that you are applying in the correct format.
+            </p>
+
+            <div class="text-center">
+              <a class="btn bg-yellow shadow" href="https://forms.gle/DuYXjBB6SKyiutYr9" target="_blank">Activities Application form</a>
             </div>
           </div>
-
+          <div class="tab-pane fade" id="pills-online-hands">
+            <p>
+            Online hands on...
+            </p>
+          </div>
+          <div class="tab-pane fade" id="pills-fabercise">
+            <p>
+            Fabercise...
+            </p>
+          </div>
+          <div class="tab-pane fade" id="pills-fab-world">
+            <p>
+            Fab world...
+            </p>
+          </div>
+          <div class="tab-pane fade" id="pills-global-fab">
+            <p>
+            Global fab day...
+            </p>
+            <div class="text-center">
+              <a class="btn bg-yellow shadow" href="https://forms.gle/mFWFdA5w9xetrbUZA" target="_blank">Global Fab Day form</a>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-become">
+            <p>
+            BECOME A Volunteer
+            </p>
+            <div class="text-center">
+              <a class="btn bg-yellow shadow" href="https://forms.gle/rb6mx4DmKZBkJenp6" target="_blank">Become a Volunteer</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </article>
   </div>
 </section>
 

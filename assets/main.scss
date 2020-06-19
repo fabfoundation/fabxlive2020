@@ -2,6 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$light-blue: rgba(242, 242, 242, 0.71);
+$cyan: #33B3C1;
+$blue: #3A3996;
+
 body {
   font-family: 'Karla';
 }
@@ -37,7 +41,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-cyan {
-  background: #33B3C1;
+  background: $cyan;
+}
+
+.bg-light-blue {
+  background: $light-blue;
+  color: black;
 }
 
 .bg-yellow {
@@ -58,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-blue {
-  background: #3A3996;
+  background: $blue;
 }
 
 .text-yellow {
@@ -111,4 +120,18 @@ h1, h2, h3, h4, h5, h6 {
   -o-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
+}
+
+.nav {
+  .active {
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: white !important;
+    background: $cyan !important;
+  }
+}
+
+.tab-pane {
+  padding: 40px;
+  border: 4px solid $blue;
 }
