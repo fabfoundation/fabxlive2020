@@ -165,9 +165,9 @@ title: FABxLive
       <article class="col-md-6 col-lg-4 col-xl-3 text-center mb-4">
         <a data-toggle="modal" data-target="#speaker{{forloop.index}}">
           <img src="{{ item.picture | absolute_url }}" class="img-fluid mb-2" style="max-height:150px;" alt=""/>
-          <h6>{{item.name}}</h6>
-          <p>{{item.institution}}</p>
         </a>
+        <h6>{{item.name}}</h6>
+        <p>{{item.institution}}</p>
 
         <div class="modal fade" id="speaker{{forloop.index}}" tabindex="-1" role="dialog">
           <div class="modal-dialog modal-lg" role="document">
