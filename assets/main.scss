@@ -16,6 +16,10 @@ body {
   letter-spacing: 0.0357em;
 }
 
+a {
+  color: black;
+}
+
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 992px) {
   h1 { font-size: 100px; }
