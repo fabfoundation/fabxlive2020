@@ -257,7 +257,7 @@ title: FABxLive
 
       {% for item in site.speakers %}
       <article class="col-md-6 col-lg-4 col-xl-3 text-center mb-4">
-        <a data-toggle="modal" data-target="#speaker{{forloop.index}}">
+        <a data-toggle="modal" data-target="#speaker{{forloop.index}}" href="#">
           <img src="{{ item.picture | absolute_url }}" class="img-fluid mb-2" style="max-height:150px;" alt=""/>
         </a>
         <h6>{{item.name}}</h6>
