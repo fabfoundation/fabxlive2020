@@ -142,3 +142,11 @@ h1, h2, h3, h4, h5, h6 {
   outline-offset: 8px;
   outline: 4px solid $blue;
 }
+
+.sidebar {
+  min-width: 8vw;
+  background-image: url('/uploads/sidebar.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
