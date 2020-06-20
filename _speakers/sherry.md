@@ -1,7 +1,7 @@
 ---
 name: Sherry Lassiter
 picture: "/uploads/02_sherry.png"
-institution: Fab Foundation
+institution: CEO, The Fab Foundation
 
 ---
 
