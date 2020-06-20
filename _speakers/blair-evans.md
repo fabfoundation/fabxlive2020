@@ -1,7 +1,7 @@
 ---
 name: Blair Evans
 picture: "/uploads/04_blair.png"
-institution: Director Incite Focus
+institution: Director, Incite Focus
 
 ---
 
