@@ -1,7 +1,7 @@
 ---
 name: Neil Gershenfeld
 picture: "/uploads/01_neil.png"
-institution: MIT
+institution: Director of MIT’s CBA
 
 ---
 
