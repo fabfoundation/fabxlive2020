@@ -1,7 +1,7 @@
 ---
 name: Tomas Diez
 picture: "/uploads/03_tomas.png"
-institution: Director of Fab Lab Barcelona
+institution: Director, Fab Lab Barcelona
 
 ---
 Tomas Diez is a Venezuelan Urbanist specialized in digital fabrication and its implications in the future of cities and society.
