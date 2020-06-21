@@ -10,9 +10,7 @@
 # in the templates via {{ site.myvariable }}.
 title: FABxLive
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  FABxLive 2020 is an online event that tackles the reality of a future
-  happening now under global, economic, social and technological developments
+description: FABxLive
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
