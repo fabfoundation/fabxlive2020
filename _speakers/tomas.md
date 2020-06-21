@@ -19,9 +19,9 @@ completing the class “How to Make Almost Anything”, offered by the MIT’s C
 He works as a close collaborator in the development of the Fab Lab Network together with MIT and the Fab Foundation.
 
 Tomas co-founded the Exploring Emergent Futures platform in the Design Products department at the Royal College of Arts in London,
-and is co-founder of initiatives such as: the crowdsensing platform Smart Citizen (http://www.smartcitizen.me),
+and is co-founder of initiatives such as: the crowdsensing platform Smart Citizen [http://www.smartcitizen.me](http://www.smartcitizen.me),
 the social network FabLabs.io (http://www.fablabs.io), and the artist residency StudioP52 (http://www.studiop52.com);
-he has been the organiser and co-chair of the FAB10 Barcelona (http://www.fab10.org), the 10th international fab lab conference and annual meeting hosted by Fab Lab Barcelona (IAAC) in 2014.
+he has been the organiser and co-chair of the FAB10 Barcelona [http://www.fab10.org](http://www.fab10.org), the 10th international fab lab conference and annual meeting hosted by Fab Lab Barcelona (IAAC) in 2014.
 
 Tomas has been appointed by The Guardian and Nesta as one of the top 10 digital social innovators to watch in 2013, and has been awarded by the Catalan ICT association as the entrepreneur of the year in 2014.
 His research interests relate to the use of digital fabrication tools to transform the reality, and how the use of new technologies can change the way people consume, produce and relate with each other in cities.
