@@ -95,8 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .circle-sm {
   border-radius: 50%;
-  height: 130px;
-  width: 130px;
+  height: 120px;
+  width: 120px;
 }
 
 .box {
@@ -104,6 +104,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 260px;
   width: 260px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.box-half {
+  height: 120px;
+  width: 60px;
 }
 
 .box-sm {
