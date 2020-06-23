@@ -1,9 +1,9 @@
 ---
 - name: ''
   picture: ''
-- name: Blair
+- name: Blair Test
   picture: "/uploads/04_blair.jpeg"
-- name: Joe
+- name: Joe Test
   picture: "/uploads/04_blair.jpeg"
-- name: Alice
+- name: Alice Test
   picture: "/uploads/04_blair.jpeg"
