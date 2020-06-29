@@ -1,25 +1,96 @@
 ---
-layout: default
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: schedule
 title: Schedule
 ---
 
-<div class="container my-5 py-5">
-  <p class="text-center">
+<section class="text-center">
+  <h1 class="text-red">SCHEDULE</h1>
   <p>
-  The conference dates are July 27-July 31 and registration for the distributed event is FREE. 
+  FABxLive 2020 is an online event that tackles the reality of a future happening now under global, economic, social and technological developments due to a Pandemic crisis known as a COVID-19 and how the Fab Lab Network as a global community
   </p>
+
   <p>
-  Every morning (US EDT) from July 27-July 30 we will host expert panels, keynote speakers and members of our network as they address: 
-  Coronavirus response from the Network; Supporting communities; Rebooting economies; Emerging futures. Per all FABX conferences, we will end the Symposiums with Fabercise and Fab World!
+  *PLEASE NOTE THAT THE TIME OF THIS SCHEDULE IS IN YOUR LOCAL TIME ZONE
   </p>
-  <p>
-  On July 31, we will have a GLOBAL FAB DAY, a day dedicated to all of us inventing and imagining locally and together. Fab labs and their regional networks have the opportunity to create local 
-  activities, workshops, presentations, fab lab open houses, whatever your community needs and wants, at times that make sense for your part of the world, and we'll advertise it promote it to the global community.  
-  </p>
-  <p>
-  Each day of the conference will include Fab World updates as well as a global roster of fantastic, community-led, distributed workshops and discussions in all the time zones of the world.
-  </p>
-  <p>
-  A more detailed schedule with links will be coming soon!
-  </p>
-</div>
+
+  <div class="text-right">
+    <p>Current time: <strong id="current-time"></strong> </p>
+    <p>Current timezone: <strong id="current-timezone"></strong> </p>
+  </div>
+
+  <ul class="nav fab-pills mb-3 justify-content-center" id="" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="pills-27-tab" data-toggle="pill" href="#pills-27" role="tab" aria-controls="pills-27" aria-selected="true">27</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-28-tab" data-toggle="pill" href="#pills-28" role="tab" aria-controls="pills-28" aria-selected="false">28</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-29-tab" data-toggle="pill" href="#pills-29" role="tab" aria-controls="pills-29" aria-selected="false">29</a>
+    </li>
+  </ul>
+
+</section>
+
+<section>
+  <div class="tab-content" id="pills-date">
+    {% assign all_days = site.events | group_by_exp:"site", "site.date | date: '%-d'" %}
+    {% for each_day in all_days %}
+      <div class="tab-pane fade {% if forloop.first == true %} show active {% endif %}" id="pills-{{each_day.name}}" role="tabpanel" aria-labelledby="pills-{{each_day.name}}-tab">
+        {% for item in each_day.items %}
+          <article class="row my-2">
+            <div class="col-md-5 col-lg-2 mb-4 speaker">
+              <ul class="list-unstyled">
+                <li>
+                  Start:
+                  <strong>
+                    {{item.date | date: "%b %-d, %H:%M %Z" }}
+                  </strong>
+                  <span class="d-block">Countdown: <strong class="countdown"></strong></span>
+                  <small class="the-date d-block">{{item.date}}</small>
+                  <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 col-lg-4 mb-4 speaker">
+              <img src="{{ item.picture | absolute_url }}" class="img-fluid" style="" alt=""/>
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+              <h3 class="mt-5">{{item.title}}</h3>
+              {{item.content}}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+
+    {% endfor %}
+  </div>
+</section>
+
+<script charset="utf-8">
+  current_time = moment().unix();
+
+  // Get all speaker nodes, and calculate countdown
+  speakers = document.querySelectorAll('.speaker')
+  speakers.forEach(calculateCountdown);
+
+  function calculateCountdown(item, index) {
+    tmp = item.querySelector('.the-date-unix');
+    if(tmp?.innerText) {
+      unix_time = tmp.innerText;
+      event_time = parseInt(unix_time)
+      diffTime = event_time - current_time;
+      item.querySelector('.countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
+    }
+  }
+
+  // Set the current date at the top
+  document.getElementById('current-time').innerText = moment()
+  document.getElementById('current-timezone').innerText = Intl.DateTimeFormat().resolvedOptions().timeZone;
+</script>
+

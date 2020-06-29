@@ -5,6 +5,8 @@
 $light-blue: #B4DDE2;
 $cyan: #33B3C1;
 $blue: #3A3996;
+$red: #ED1654;
+$yellow: #F2E7AE;
 
 body {
   font-family: 'Karla';
@@ -55,14 +57,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-yellow {
-  background: #F2E7AE;
+  background: $yellow;
 }
 .bg-yellow:hover {
   background: #d9cf9c;
 }
 
 .bg-red {
-  background: #ED1654;
+  background: $red;
   color: white;
 }
 
@@ -77,7 +79,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-yellow {
-  color: #F2E7AE;
+  color: $yellow;
+}
+
+.text-red {
+  color: $red;
 }
 
 .navbar-dark{
@@ -131,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-filter: invert(100%) !important;
 }
 
-.nav {
+.nav-participate {
   .active {
     border: 2px solid #fff;
     border-radius: 2px;
@@ -140,10 +146,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.tab-pane {
+.fab-pane {
   padding: 40px;
   outline: 4px solid $blue;
   outline-offset: 8px;
+}
+
+.fab-pills {
+  .nav-item {
+    font-size: 18px;
+    .nav-link.active {
+      color: $red;
+      border-bottom: 2px solid $yellow;
+    }
+  }
 }
 
 .outline-blue {
