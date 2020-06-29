@@ -43,17 +43,12 @@ title: Schedule
         {% for item in each_day.items %}
           <article class="row my-2">
             <div class="col-md-5 col-lg-2 mb-4 speaker">
-              <ul class="list-unstyled">
-                <li>
-                  Start:
-                  <strong>
-                    {{item.date | date: "%b %-d, %H:%M %Z" }}
-                  </strong>
-                  <span class="d-block">Countdown: <strong class="countdown"></strong></span>
-                  <small class="the-date d-block">{{item.date}}</small>
-                  <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
-                </li>
-              </ul>
+              <h5 class="mb-4">
+                {{item.date | date: "%H:%M %Z" }}
+              </h5>
+              <span class="d-block">Countdown: <strong class="countdown"></strong></span>
+              <small class="the-date d-block">{{item.date}}</small>
+              <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
             </div>
 
             <div class="col-md-5 col-lg-4 mb-4 speaker">
