@@ -52,6 +52,11 @@ h1, h2, h3, h4, h5, h6 {
   background: $cyan;
 }
 
+.cyan-vertical-line {
+  border-left: 3px solid $cyan;
+  margin-left: 12px;
+}
+
 .bg-light-blue {
   background: $light-blue;
   color: black;
@@ -107,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .circle-25 {
-  width: 25px;
+  min-width: 25px;
   height: 25px;
 }
 

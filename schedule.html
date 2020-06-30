@@ -44,18 +44,20 @@ title: Schedule
       <div class="tab-pane fade {% if forloop.first == true %} show active {% endif %}" id="pills-{{each_day.name}}" role="tabpanel" aria-labelledby="pills-{{each_day.name}}-tab">
         {% for item in each_day.items %}
           <article class="row my-5">
-            <div class="col-md-5 col-lg-2 mb-2 speaker">
+            <div class="col-md-5 col-lg-2 mb-2 speaker d-flex flex-column">
 
-              <div class="d-flex">
-                <div class="circle circle-25 bg-blue"></div>
-                <h5 class="mb-4 ml-3">
+              <div title="{{item.date}}" class="d-flex">
+                <div class="circle circle-25 bg-blue mr-2"></div>
+                <h5 class="mb-4">
                   {{item.date | date: "%H:%M %Z" }}
                 </h5>
               </div>
 
-              <span class="d-block">Countdown: <strong class="countdown"></strong></span>
-              <small class="the-date d-block">{{item.date}}</small>
-              <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
+              <div class="flex-fill cyan-vertical-line pl-3">
+                <span class="d-block">Countdown: <br> <strong class="countdown"></strong></span>
+                <small class="the-date d-block">{{item.date}}</small>
+                <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
+              </div>
             </div>
 
             <div class="col-md-5 col-lg-4 mb-2">
