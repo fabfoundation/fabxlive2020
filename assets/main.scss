@@ -7,6 +7,7 @@ $cyan: #33B3C1;
 $blue: #3A3996;
 $red: #ED1654;
 $yellow: #F2E7AE;
+$grey: #f2f2f2;
 
 body {
   font-family: 'Karla';
@@ -32,7 +33,7 @@ a {
 }
 
 h1 {
-  color: #f2f2f2;
+  color: $grey;
   margin-bottom: 40px;
 }
 
@@ -76,6 +77,10 @@ h1, h2, h3, h4, h5, h6 {
 .bg-blue {
   background: $blue;
   color: white;
+}
+
+.bg-grey {
+  background: $grey;
 }
 
 .text-yellow {
