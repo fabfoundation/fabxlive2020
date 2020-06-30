@@ -60,7 +60,8 @@ h1, h2, h3, h4, h5, h6 {
 .bg-yellow {
   background: $yellow;
 }
-.bg-yellow:hover {
+
+.btn.bg-yellow:hover {
   background: #d9cf9c;
 }
 
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-.bg-red:hover {
+.btn.bg-red:hover {
   background: #d5134b;
   color: white;
 }
@@ -107,8 +108,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .circle-sm {
   border-radius: 50%;
-  height: 120px;
-  width: 120px;
+  height: 10vw;
+  width: 10vw;
 }
 
 .box {
@@ -118,14 +119,14 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
-.box-half {
-  height: 120px;
-  width: 60px;
+.box-sm {
+  height: 10vw;
+  width: 10vw;
 }
 
-.box-sm {
-  height: 130px;
-  width: 130px;
+.box-half {
+  height: 10vw;
+  width: 5vw;
 }
 
 // Footer
@@ -178,21 +179,4 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-}
-
-// Smaller then 768
-@media (max-width: 768px) {
-  .circle-sm {
-    height: 80px;
-    width: 80px;
-  }
-
-  .box-half {
-    width: 25px;
-  }
-
-  .box-sm {
-    height: 100px;
-    width: 100px;
-  }
 }
