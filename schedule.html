@@ -35,28 +35,35 @@ title: Schedule
 
 </section>
 
+<div class="box-sm bg-red position-absolute" style="right: 10px; "></div>
+
 <section class="mb-5">
   <div class="tab-content" id="pills-date">
     {% assign all_days = site.events | group_by_exp:"site", "site.date | date: '%-d'" %}
     {% for each_day in all_days %}
       <div class="tab-pane fade {% if forloop.first == true %} show active {% endif %}" id="pills-{{each_day.name}}" role="tabpanel" aria-labelledby="pills-{{each_day.name}}-tab">
         {% for item in each_day.items %}
-          <article class="row my-2">
-            <div class="col-md-5 col-lg-2 mb-4 speaker">
-              <h5 class="mb-4">
-                {{item.date | date: "%H:%M %Z" }}
-              </h5>
+          <article class="row my-5">
+            <div class="col-md-5 col-lg-2 mb-2 speaker">
+
+              <div class="d-flex">
+                <div class="circle circle-25 bg-blue"></div>
+                <h5 class="mb-4 ml-3">
+                  {{item.date | date: "%H:%M %Z" }}
+                </h5>
+              </div>
+
               <span class="d-block">Countdown: <strong class="countdown"></strong></span>
               <small class="the-date d-block">{{item.date}}</small>
               <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
             </div>
 
-            <div class="col-md-5 col-lg-4 mb-4 speaker">
+            <div class="col-md-5 col-lg-4 mb-2">
               <img src="{{ item.picture | absolute_url }}" class="img-fluid" style="" alt=""/>
             </div>
 
-            <div class="col-md-12 col-lg-6">
-              <h4 class="mt-5 text-uppercase">{{item.title}}</h4>
+            <div class="col-md-12 col-lg-6 mb-5">
+              <h4 class="mt-4 text-uppercase">{{item.title}}</h4>
               {{item.content}}
             </div>
           </article>
