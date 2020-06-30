@@ -35,7 +35,7 @@ title: Schedule
 
 </section>
 
-<section>
+<section class="mb-5">
   <div class="tab-content" id="pills-date">
     {% assign all_days = site.events | group_by_exp:"site", "site.date | date: '%-d'" %}
     {% for each_day in all_days %}
@@ -65,6 +65,13 @@ title: Schedule
 
     {% endfor %}
   </div>
+
+  <p>
+  You can check more details of the full schedule, links, tutors, registrations and much more,
+  by registrating yourself to our online platform here:
+  </p>
+  <a href="https://fabxmembers.fabevent.org/" target="_blank">https://fabxmembers.fabevent.org/</a>
+
 </section>
 
 <script charset="utf-8">
