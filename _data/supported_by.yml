@@ -1,5 +1,15 @@
 ---
 - url: 'https://forestscientific.com/'
   filename: 'fs.png'
+
 - url: 'https://www.chevron.com/'
   filename: "chevron.png"
+
+- url: 'https://3dexperiencelab.3ds.com/en/homepage/'
+  filename: '3dexp.jpg'
+
+- url: 'https://www.3ds.com/'
+  filename: 'dassault-systemes-logo.svg'
+
+- url: 'https://www.solidworks.com'
+  filename: 'solidworks-logo.png'
