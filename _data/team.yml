@@ -1,0 +1,17 @@
+---
+- name: 'Member 1'
+  text: Something about my
+  picture: "04_blair.jpeg"
+
+- name: Member 2
+  text: Something about my
+  picture: "04_blair.jpeg"
+
+- name: Member 4
+  text: Something about my
+  picture: "04_blair.jpeg"
+
+- name: Member 5
+  text: Something about my
+  picture: "04_blair.jpeg"
+

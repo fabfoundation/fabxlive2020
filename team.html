@@ -4,5 +4,22 @@ title: Team
 ---
 
 <div class="container mt-5">
+
   <h1>Team</h1>
+
+  <section class="row">
+
+    <!-- add new team members in _data/team.yml -->
+    {% for item in site.data.team %}
+    <article class="col-md-6 col-lg-4 col-xl-3">
+      <h5>{{item.name}}</h5>
+      <img class="img-fluid" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
+      <p>
+        {{ item.text }}
+      </p>
+    </article>
+    {% endfor %}
+
+  </section>
+
 </div>

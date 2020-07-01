@@ -4,10 +4,12 @@ title: Expo
 ---
 
 <div class="container my-5">
+
   <h1 class="text-center">EXHIBITION</h1>
 
   <section class="card-columns">
 
+    <!-- add new expo in _data/expo.yml -->
     {% for item in site.data.expo %}
     <article class="card">
       <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
