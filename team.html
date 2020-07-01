@@ -12,11 +12,15 @@ title: Team
     <!-- add new team members in _data/team.yml -->
     {% for item in site.data.team %}
     <article class="col-md-6 col-lg-4 col-xl-3">
-      <h5>{{item.name}}</h5>
-      <img class="img-fluid" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
-      <p>
-        {{ item.text }}
-      </p>
+      <div class="card">
+        <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
+        <div class="card-body">
+          <h5>{{item.name}}</h5>
+          <p>
+          {{ item.text }}
+          </p>
+        </div>
+      </div>
     </article>
     {% endfor %}
 
