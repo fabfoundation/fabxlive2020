@@ -3,6 +3,25 @@ layout: default
 title: Expo
 ---
 
-<div class="container mt-5">
-  <h1>Expo</h1>
+<div class="container my-5">
+  <h1 class="text-center">EXHIBITION</h1>
+
+  <section class="card-columns">
+
+    {% for item in site.data.expo %}
+    <article class="card">
+      <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ item.title }}
+        </h5>
+        <p class="card-text">
+        {{ item.text }}
+        </p>
+      </div>
+    </article>
+    {% endfor %}
+
+  </section>
+
 </div>
