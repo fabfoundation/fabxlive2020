@@ -1,29 +1,25 @@
 ---
-layout: default
+layout: container
 title: Team
 ---
 
-<div class="container mt-5">
+<h1>Team</h1>
 
-  <h1>Team</h1>
+<section class="row">
 
-  <section class="row">
-
-    <!-- add new team members in _data/team.yml -->
-    {% for item in site.data.team %}
-    <article class="col-md-6 col-lg-4 col-xl-3">
-      <div class="card">
-        <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
-        <div class="card-body">
-          <h5>{{item.name}}</h5>
-          <p>
-          {{ item.text }}
-          </p>
-        </div>
+  <!-- add new team members in _data/team.yml -->
+  {% for item in site.data.team %}
+  <article class="col-md-6 col-lg-4 col-xl-3">
+    <div class="card">
+      <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
+      <div class="card-body">
+        <h5>{{item.name}}</h5>
+        <p>
+        {{ item.text }}
+        </p>
       </div>
-    </article>
-    {% endfor %}
+    </div>
+  </article>
+  {% endfor %}
 
-  </section>
-
-</div>
+</section>
