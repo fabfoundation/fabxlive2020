@@ -3,7 +3,10 @@
   filename: 'fs.png'
 
 - url: 'https://www.chevron.com/'
-  filename: "chevron.png"
+  filename: "CVX.png"
+  
+- url: 'https://www.brother-usa.com/'
+  filename: "brother.png"
 
 - url: 'https://www.3ds.com/'
   filename: 'dassault-systemes-logo.svg'
