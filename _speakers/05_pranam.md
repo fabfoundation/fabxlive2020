@@ -1,6 +1,6 @@
 ---
 name: Pranam Chatterjee
-picture: "/uploads/04_blair.png"
+picture: "/uploads/Pn_Speaker.png"
 institution: Research Fellow, Harvard Medical School and MIT
 
 ---
