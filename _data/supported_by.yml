@@ -1,10 +1,4 @@
 ---
-- url: 'https://forestscientific.com/'
-  filename: 'fs.png'
-
-- url: 'https://www.chevron.com/'
-  filename: "CH.png"
-  
 - url: 'https://www.brother-usa.com/'
   filename: "brother.png"
 
@@ -16,3 +10,10 @@
 
 - url: 'https://3dexperiencelab.3ds.com/en/homepage/'
   filename: '3dexp.jpg'
+  
+- url: 'https://forestscientific.com/'
+  filename: 'fs.png'
+
+- url: 'https://www.chevron.com/'
+  filename: "CVX.png"
+  
