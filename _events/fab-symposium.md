@@ -5,5 +5,9 @@ picture: '/uploads/challenge.png'
 ---
 
 Global Response to COVID-19
-HOST: Neil Gershenfeld SPEAKERS: Pranam Chatterjee, more joining soon...
+
+
+HOST: Neil Gershenfeld 
+
+SPEAKERS: Pranam Chatterjee, more joining soon...
 
