@@ -1,6 +1,6 @@
 ---
 title: Collaborators
-picture: "/uploads/03_tomas.jpg"
+picture: "/uploads/s-day1.png"
 date: 2020-07-27T17:00:00.000+00:00
 ---
 
