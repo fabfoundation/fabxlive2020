@@ -1,6 +1,6 @@
 ---
 title: Fab World
-picture: "/uploads/03_tomas.png"
+picture: "/uploads/fw2.png"
 date: 2020-07-30T16:20:00.000+00:00
 ---
 
