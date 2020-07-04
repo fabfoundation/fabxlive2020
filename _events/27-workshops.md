@@ -1,5 +1,5 @@
 ---
-title: Workshop
+title: Workshops
 picture: "/uploads/02_sherry.jpg"
 date: 2020-07-27T18:00:00.000+00:00
 ---
