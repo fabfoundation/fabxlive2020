@@ -1,6 +1,6 @@
 ---
 title: Workshops
-picture: "/uploads/02_sherry.jpg"
+picture: "/uploads/w2.png"
 date: 2020-07-28T18:00:00.000+00:00
 ---
 
