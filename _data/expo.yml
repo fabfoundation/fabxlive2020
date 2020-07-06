@@ -2,20 +2,20 @@
 ---
 - title: 'The Title'
   text: 'The text'
-  picture: "04_blair.jpeg"
+  picture: "profile-example.png"
 
 - title: 'The Title 2'
   text: 'The text 2'
-  picture: "04_blair.jpeg"
+  picture: "profile-example.png"
 
 - title: 'The Title 3'
   text: 'The text 3'
-  picture: "04_blair.jpeg"
+  picture: "profile-example.png"
 
 - title: 'The Title 4'
   text: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Wikipedia'
-  picture: "04_blair.jpeg"
+  picture: "profile-example.png"
 
 - title: 'The Title 5'
   text: 'The text 5'
-  picture: "04_blair.jpeg"
+  picture: "profile-example.png"
