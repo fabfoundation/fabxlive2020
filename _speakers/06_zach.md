@@ -9,13 +9,13 @@ Hi! My name is Zach Fredin. I am originally from Columbus, OH, and most recently
 
 My [portfolio](https://zachfred.in/), which talks a bit about past projects and work. 
 
-At CBA, I study digital materials, micron-scale direct-write fabrication, and asynchronous mechanically reconfigurable computational structures. During the spring of 2020, I also worked on a number of rapid [COVID-19 response projects](https://gitlab.cba.mit.edu/pub/coronavirus/tracking intended for distributed FabLab-based community fabrication.
+At CBA, I study digital materials, micron-scale direct-write fabrication, and asynchronous mechanically reconfigurable computational structures. During the spring of 2020, I also worked on a number of rapid [COVID-19 response projects](https://gitlab.cba.mit.edu/pub/coronavirus/tracking) intended for distributed FabLab-based community fabrication.
 
 A square meter of printed circuit board consumes roughly a cubic meter of fresh water during its production.
 
 I occassionally photograph woodland creatures.
 
-MIT class sites: [How to Make (Almost) Anything](http://fab.cba.mit.edu/classes/863.19/CBA/people/zach/index.html), [The Nature of Mathematical Modeling] (http://fab.cba.mit.edu/classes/864.20/people/zach/index.html)
+MIT class sites: [How to Make (Almost) Anything](http://fab.cba.mit.edu/classes/863.19/CBA/people/zach/index.html), [The Nature of Mathematical Modeling](http://fab.cba.mit.edu/classes/864.20/people/zach/index.html)
 zach dot fredin at cba dot mit dot edu
 
 pronouns: he/him
