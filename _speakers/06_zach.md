@@ -16,6 +16,7 @@ A square meter of printed circuit board consumes roughly a cubic meter of fresh 
 I occassionally photograph woodland creatures.
 
 MIT class sites: [How to Make (Almost) Anything](http://fab.cba.mit.edu/classes/863.19/CBA/people/zach/index.html), [The Nature of Mathematical Modeling](http://fab.cba.mit.edu/classes/864.20/people/zach/index.html)
+
 zach dot fredin at cba dot mit dot edu
 
 pronouns: he/him
