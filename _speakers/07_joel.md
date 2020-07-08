@@ -1,6 +1,6 @@
 ---
 name: Joel Cutcher-Gershenfeld
-picture: "/uploads/joel.png"
+picture: "/uploads/joelg.png"
 institution: Professor
 
 ---
