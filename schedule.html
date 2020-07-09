@@ -13,8 +13,8 @@ title: Schedule
   </p>
 
   <div class="text-center">
-    <p>Current time: <strong id="current-time"></strong> </p>
-    <p>Current timezone: <strong id="current-timezone"></strong> </p>
+    <p>Estimated time (via your browser): <strong id="current-time"></strong> </p>
+    <p>Timezone: <strong id="current-timezone"></strong> </p>
   </div>
 
   <ul class="nav fab-pills mb-3 justify-content-center" id="" role="tablist">
@@ -51,14 +51,15 @@ title: Schedule
 
               <div title="{{item.date}}" class="d-flex">
                 <div class="circle circle-25 bg-blue mr-2"></div>
-                <h5 class="mb-4">
-                  {{item.date | date: "%H:%M %Z" }}
+                <h5 class="mb-4 my-timezone">
                 </h5>
               </div>
 
               <div class="flex-fill cyan-vertical-line pl-3">
+                <p>
+                  {{item.date | date: "%H:%M %Z" }}
+                </p>
                 <span class="d-block">Countdown: <br> <strong class="countdown"></strong></span>
-                <small class="the-date d-block">{{item.date}}</small>
                 <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
               </div>
             </div>
@@ -97,12 +98,12 @@ title: Schedule
   speakers.forEach(calculateCountdown);
 
   function calculateCountdown(item, index) {
-    tmp = item.querySelector('.the-date-unix');
-    if(tmp?.innerText) {
-      unix_time = tmp.innerText;
-      event_time = parseInt(unix_time)
+    unixnr = item.querySelector('.the-date-unix');
+    if(unixnr?.innerText) {
+      event_time = parseInt(unixnr.innerText)
       diffTime = event_time - current_time;
       item.querySelector('.countdown').innerText = moment.duration(diffTime * 1000, 'milliseconds').humanize();
+      item.querySelector('.my-timezone').innerText = moment(event_time * 1000).format('HH:mm');
     }
   }
 
