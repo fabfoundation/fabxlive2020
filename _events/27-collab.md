@@ -1,8 +1,11 @@
 ---
 title: Collaborators
 picture: "/uploads/s-day1.png"
-date: 2020-07-27T17:00:00.000+00:00
+date: 2020-07-27T16:00:00.000+00:00
 ---
+
+30 MIN
+
 
 Get to meet our sponosor and look engange on a future 
 collaboration where you, your team and your lab can
