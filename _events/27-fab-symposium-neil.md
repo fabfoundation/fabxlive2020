@@ -6,7 +6,9 @@ picture: '/uploads/day1.png'
 
 2HR SESSION
 
+
 Global Response to COVID-19
+
 
 HOST: Neil Gershenfeld 
 
