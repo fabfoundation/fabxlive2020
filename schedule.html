@@ -40,7 +40,7 @@ title: Schedule
 <div class="circle-sm bg-yellow position-absolute" style="right: 10px; top:90px"></div>
 <div class="box-sm bg-red position-absolute" style="right: 10px; "></div>
 
-<section class="mb-5">
+<section class="pb-5">
   <div class="tab-content" id="pills-date">
     {% assign all_days = site.events | group_by_exp:"site", "site.date | date: '%-d'" %}
     {% for each_day in all_days %}
