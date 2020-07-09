@@ -5,9 +5,8 @@ picture: '/uploads/day1.png'
 ---
 
 2HR SESSION
+
 Global Response to COVID-19
-
-
 HOST: Neil Gershenfeld 
 
 SPEAKERS: Pranam Chatterjee, Zach Fredin, Joel Gershenfeld, Danny Beesley
