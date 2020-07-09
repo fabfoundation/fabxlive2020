@@ -178,6 +178,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.fab-pills-blue {
+  .nav-item {
+    font-size: 18px;
+    .nav-link {
+      color: white;
+      &.active {
+        border-bottom: 2px solid $yellow;
+      }
+    }
+  }
+}
+
+
 .outline-blue {
   outline-offset: 8px;
   outline: 4px solid $blue;
