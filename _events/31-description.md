@@ -1,7 +1,7 @@
 ---
 title: Global Fab Day
 picture: "/uploads/gfabday.png"
-date: 2020-07-31T16:20:00.000+00:00
+date: 2020-07-31T15:20:00.000+00:00
 ---
 
 Friday, July 31st is a day dedicated to making!

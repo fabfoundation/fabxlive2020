@@ -1,8 +1,11 @@
 ---
 title: Fab Symposium
-date: 2020-07-28T14:00:00.000+00:00
+date: 2020-07-28T13:00:00.000+00:00
 picture: '/uploads/day2.png'
 ---
+
+2HR SESSION
+
 
 Supporting Communities
 
@@ -10,6 +13,6 @@ Supporting Communities
 HOST: Sherry Lassiter
 
 
-SPEAKERS: 
+SPEAKERS: Joining soon...
 
-Joining soon...
+

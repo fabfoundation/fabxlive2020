@@ -1,9 +1,12 @@
 ---
 title: Fab World
 picture: "/uploads/fw1.png"
-date: 2020-07-29T16:20:00.000+00:00
+date: 2020-07-29T15:20:00.000+00:00
 ---
+
+30MIN
+
 
 Watch presentacion from New Fab Labs, Fabber/makers or Projects from the #FabLabNetwork
 
-In a series of 40 min with an average of 13 presenters per day!
+
