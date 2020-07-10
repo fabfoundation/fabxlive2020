@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cyan-vertical-line {
   border-left: 3px solid $cyan;
-  margin-left: 12px;
+  margin-left: 11px;
 }
 
 .bg-light-blue {
@@ -107,6 +107,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Background graphics
+.theme-box {
+  text-align: center;
+  height: 260px;
+  width: 260px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
 .circle {
   border-radius: 50%;
 }
@@ -116,27 +123,18 @@ h1, h2, h3, h4, h5, h6 {
   height: 25px;
 }
 
-.circle-sm {
-  border-radius: 50%;
+.bg-item-10 {
   height: 10vw;
   width: 10vw;
-}
-
-.box {
-  text-align: center;
-  height: 260px;
-  width: 260px;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-}
-
-.box-sm {
-  height: 10vw;
-  width: 10vw;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 .box-half {
   height: 10vw;
   width: 5vw;
+  max-width: 60px;
+  max-height: 120px;
 }
 
 // Footer

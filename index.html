@@ -6,9 +6,9 @@ title: FABxLive
 <section class="bg-light">
   <div class="d-flex">
 
-    <div class="sidebar d-none d-md-inline"></div>
+    <div class="sidebar d-none d-md-inline" style="z-index:999;"></div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="z-index:999;">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="/uploads/banners/banner-12.png" alt="First">
@@ -39,11 +39,14 @@ title: FABxLive
   </div>
 </section>
 
-<section class="bg-cyan text-white position-relative py-5" id="about">
-  <div class="circle-sm bg-red position-absolute" style="left:20px;"></div>
-  <div class="box-half bg-yellow position-absolute" style="right:0px;"></div>
-  <div class="container">
-    <h1  class="position-relative">ABOUT</h1>
+<section class="bg-cyan text-white py-5" id="about">
+
+  <div class="bg-item-10 box-half bg-yellow position-fixed" style="right:0px; top:90px;"></div>
+  <div class="bg-item-10 circle bg-red position-fixed" style="left:20px; top: 190px;"></div>
+  <div class="bg-item-10 bg-blue position-fixed" style="right:20px; bottom:30px;"></div>
+
+  <div class="container position-relative">
+    <h1>ABOUT</h1>
     <div class="row">
       <div class="col-lg-6 mb-3">
         <p>
@@ -97,41 +100,36 @@ title: FABxLive
 </section>
 
 <section class="text-grey py-5 position-relative" id="themes">
-  <div class="circle-sm bg-blue position-absolute" style="right:20px;"></div>
   <div class="container">
     <h1 class="text-muted">THEMES</h1>
     <div class="row">
       <div class="col-md-6 col-xl-3 mb-4">
-        <div class="box circle bg-blue p-5 d-flex flex-column justify-content-center mx-auto mb-2">
+        <div class="theme-box circle bg-blue p-5 d-flex flex-column justify-content-center mx-auto mb-2">
           <h4>GLOBAL RESPONSE TO COVID-19</h4>
         </div>
       </div>
       <div class="col-md-6 col-xl-3 mb-4">
-        <div class="box bg-cyan p-5 d-flex flex-column justify-content-center mx-auto mb-2">
+        <div class="theme-box bg-cyan p-5 d-flex flex-column justify-content-center mx-auto mb-2">
           <h4>SUPPORTING COMMUNITIES</h4>
         </div>
       </div>
       <div class="col-md-6 col-xl-3 mb-4">
-        <div class="box circle bg-red p-5 d-flex flex-column justify-content-center mx-auto mb-2">
+        <div class="theme-box circle bg-red p-5 d-flex flex-column justify-content-center mx-auto mb-2">
           <h4>REBOOTING ECONOMIES</h4>
         </div>
       </div>
       <div class="col-md-6 col-xl-3 mb-4">
-        <div class="box bg-yellow p-5 d-flex flex-column justify-content-center mx-auto mb-2">
+        <div class="theme-box bg-yellow p-5 d-flex flex-column justify-content-center mx-auto mb-2">
           <h4>EMERGENT FUTURES</h4>
         </div>
       </div>
     </div>
   </div>
-  <div class="box-sm bg-cyan position-relative" style="left: -80px; top: -60px;"></div>
-  <div class="box-sm bg-red position-absolute" style="right: 40px; bottom: 20px;"></div>
 </section>
 
-<section class="bg-cyan text-white position-relative py-5" id="participate">
-  <div class="circle-sm bg-red position-absolute" style="left:20px;"></div>
-  <div class="box-half bg-yellow position-absolute" style="right:0px;"></div>
-  <div class="container">
-    <h1 class="position-relative">PARTICIPATE</h1>
+<section class="bg-cyan text-white py-5" id="participate">
+  <div class="container position-relative">
+    <h1>PARTICIPATE</h1>
     <article class="row">
 
       <div class="col-12">
@@ -257,7 +255,7 @@ title: FABxLive
   </div>
 </section>
 
-<section class="py-5" id="speakers">
+<section class="py-5 position-relative" id="speakers">
   <div class="container">
     <h1 class="text-muted">HOSTS</h1>
     <section class="row">
@@ -328,11 +326,9 @@ title: FABxLive
   </div>
 </section>
 
-<section class="bg-cyan text-white position-relative py-5" id="challenges">
-  <div class="circle-sm bg-red position-absolute" style="left:20px;"></div>
-  <div class="box-half bg-yellow position-absolute" style="right:0px;"></div>
-  <div class="container">
-    <h1 class="position-relative">CHALLENGES</h1>
+<section class="bg-cyan text-white py-5" id="challenges">
+  <div class="container position-relative">
+    <h1>CHALLENGES</h1>
 
     <ul class="nav fab-pills-blue mb-4 text-uppercase" role="tablist">
       <li class="nav-item" role="presentation">
@@ -435,7 +431,7 @@ title: FABxLive
   </div>
 </section>
 
-<section class="container my-5">
+<section class="container position-relative my-5">
   <h1 class="text-muted mb-0">THANKS</h1>
   <h2>TO ALL OUR PARTNERS</h2>
 
