@@ -39,12 +39,9 @@ title: FABxLive
   </div>
 </section>
 
-<section class="bg-cyan text-white py-5" id="about">
+<section class="bg-cyan text-white py-5 position-relative" id="about">
 
-  <div class="bg-item-10 position-fixed bg-yellow box-half" style="right:0px; top:90px;"></div>
-  <div class="bg-item-10 position-fixed bg-red circle" style="left:20px; top: 190px;"></div>
-  <div class="bg-item-10 position-fixed bg-blue" style="right:20px; bottom:30px;"></div>
-  <div class="bg-item-10 position-fixed bg-cyan box-half" style="left:0px; bottom:30px;"></div>
+  {%- include bg-items-cyan.html -%}
 
   <div class="container position-relative">
     <h1>ABOUT</h1>
@@ -101,6 +98,9 @@ title: FABxLive
 </section>
 
 <section class="text-grey py-5 position-relative" id="themes">
+
+  {%- include bg-items-white.html -%}
+
   <div class="container">
     <h1 class="text-muted">THEMES</h1>
     <div class="row">
@@ -128,7 +128,10 @@ title: FABxLive
   </div>
 </section>
 
-<section class="bg-cyan text-white py-5" id="participate">
+<section class="bg-cyan text-white py-5 position-relative" id="participate">
+
+  {%- include bg-items-cyan.html -%}
+
   <div class="container position-relative">
     <h1>PARTICIPATE</h1>
     <article class="row">
@@ -257,6 +260,7 @@ title: FABxLive
 </section>
 
 <section class="py-5 position-relative" id="speakers">
+  {%- include bg-items-white.html -%}
   <div class="container">
     <h1 class="text-muted">HOSTS</h1>
     <section class="row">
@@ -323,11 +327,14 @@ title: FABxLive
       {% endfor %}
     </section>
     <p>More speakers joining soon...</p>
-    
+
   </div>
 </section>
 
-<section class="bg-cyan text-white py-5" id="challenges">
+<section class="bg-cyan text-white py-5 position-relative" id="challenges">
+
+  {%- include bg-items-cyan.html -%}
+
   <div class="container position-relative">
     <h1>CHALLENGES</h1>
 
@@ -432,42 +439,45 @@ title: FABxLive
   </div>
 </section>
 
-<section class="container position-relative my-5">
-  <h1 class="text-muted mb-0">THANKS</h1>
-  <h2>TO ALL OUR PARTNERS</h2>
+<section class="position-relative my-5">
+  {%- include bg-items-white.html -%}
+  <div class="container">
+    <h1 class="text-muted mb-0">THANKS</h1>
+    <h2>TO ALL OUR PARTNERS</h2>
 
-  <h4 class="my-4">Hosted by</h4>
-  <article class="row">
-    <div class="col-lg-4 mb-3">
-      <a href="https://fabfoundation.org/" target="_blank"><img src="{{ '/uploads/ff2020.png' | absolute_url }}" class="img-fluid" alt=""/></a>
-    </div>
-    <div class="col-lg-4 mb-3">
-      <a href="https://cba.mit.edu/" target="_blank"><img src="{{ '/uploads/cba.jpg' | absolute_url }}" class="img-fluid" alt=""/></a>
-    </div>
-  </article>
+    <h4 class="my-4">Hosted by</h4>
+    <article class="row">
+      <div class="col-lg-4 mb-3">
+        <a href="https://fabfoundation.org/" target="_blank"><img src="{{ '/uploads/ff2020.png' | absolute_url }}" class="img-fluid" alt=""/></a>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <a href="https://cba.mit.edu/" target="_blank"><img src="{{ '/uploads/cba.jpg' | absolute_url }}" class="img-fluid" alt=""/></a>
+      </div>
+    </article>
 
-  <h5 class="my-4">Supported by</h5>
-  <article class="row d-flex">
-    <!-- add new images by using the file: _data/supported_by.yml -->
-    {% for item in site.data.supported_by %}
-    <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-      <a href="{{item.url}}" target="_blank">
-        <img src="/uploads/{{ item.filename }}" class="img-fluid" alt=""/>
-      </a>
-    </div>
-    {% endfor %}
-  </article>
+    <h5 class="my-4">Supported by</h5>
+    <article class="row d-flex">
+      <!-- add new images by using the file: _data/supported_by.yml -->
+      {% for item in site.data.supported_by %}
+      <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+        <a href="{{item.url}}" target="_blank">
+          <img src="/uploads/{{ item.filename }}" class="img-fluid" alt=""/>
+        </a>
+      </div>
+      {% endfor %}
+    </article>
 
-  <h5 class="my-4">In collaboration with</h5>
-  <article class="row d-flex">
-    <!-- add new images by using the file: _data/collaboration_with.yml -->
-    {% for item in site.data.collaboration_with %}
-    <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-      <a href="{{item.url}}" target="_blank">
-        <img src="/uploads/{{ item.filename }}" class="img-fluid" alt=""/>
-      </a>
-    </div>
-    {% endfor %}
-  </article>
+    <h5 class="my-4">In collaboration with</h5>
+    <article class="row d-flex">
+      <!-- add new images by using the file: _data/collaboration_with.yml -->
+      {% for item in site.data.collaboration_with %}
+      <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+        <a href="{{item.url}}" target="_blank">
+          <img src="/uploads/{{ item.filename }}" class="img-fluid" alt=""/>
+        </a>
+      </div>
+      {% endfor %}
+    </article>
+  </div>
 
 </section>
