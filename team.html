@@ -23,3 +23,25 @@ title: Team
   {% endfor %}
 
 </section>
+
+
+<h2 class="text-red">Staff</h2>
+
+<section class="row mb-5 pb-5">
+
+  <!-- add new team members in _data/staff.yml -->
+  {% for item in site.data.staff %}
+  <article class="col-md-6 col-lg-4 col-xl-3">
+    <div class="card">
+      <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
+      <div class="card-body">
+        <h5>{{item.name}}</h5>
+        <p>
+        {{ item.text }}
+        </p>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+
+</section>
