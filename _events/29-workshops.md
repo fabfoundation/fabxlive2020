@@ -1,7 +1,7 @@
 ---
 title: Workshops
 picture: "/uploads/w3.png"
-date: 2020-07-29T18:00:00.000+00:00
+date: 2020-07-29T17:00:00.000+00:00
 ---
 
 Get involved with the community and share your 
