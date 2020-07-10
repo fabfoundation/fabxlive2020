@@ -1,6 +1,6 @@
 ---
-title: Fab Academy Highlight
-picture: "/uploads/fw1.png"
+title: Fab Academy Highlights
+picture: "/uploads/FAhigh.png"
 date: 2020-07-29T16:20:00.000+00:00
 ---
 
