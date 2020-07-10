@@ -1,6 +1,6 @@
 ---
 title: Academany Party
-picture: "/uploads/fw1.png"
+picture: "/uploads/FAparty.png"
 date: 2020-07-29T16:30:00.000+00:00
 ---
 
