@@ -1,8 +1,11 @@
 ---
 title: Fab Symposium
-date: 2020-07-30T14:00:00.000+00:00
+date: 2020-07-30T13:00:00.000+00:00
 picture: '/uploads/day4.png'
 ---
+
+2HR SESSION
+
 
 Emergent Futures
 
@@ -10,6 +13,6 @@ Emergent Futures
 HOST: Tomas Diez
 
 
-SPEAKERS: 
+SPEAKERS: Joining soon...
 
-Joining soon...
+
