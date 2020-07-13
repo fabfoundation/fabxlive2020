@@ -1,7 +1,7 @@
 ---
-- url: 'https://www.brother-usa.com/'
-  filename: "brother.png"
-
+- url: 'https://www.chevron.com/'
+  filename: "CVX3.png"
+  
 - url: 'https://www.3ds.com/'
   filename: 'dassault-systemes-logo.svg'
 
@@ -9,11 +9,11 @@
   filename: 'solidworks-logo.png'
 
 - url: 'https://3dexperiencelab.3ds.com/en/homepage/'
-  filename: '3dexp.jpg'
+  filename: '3dexp.jpg'  
+  
+- url: 'https://www.brother-usa.com/'
+  filename: "brother.png"
   
 - url: 'https://forestscientific.com/'
   filename: 'fs.png'
-
-- url: 'https://www.chevron.com/'
-  filename: "CVX3.png"
   
