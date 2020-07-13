@@ -9,7 +9,7 @@ Sherry Lassiter is one of the architects of the MIT global initiative for field 
 
 A Fab Lab, or as users like to call it, fabulous laboratory, is a rapid prototyping platform for technical education, innovation, and personal expression.
 
-The Fab Lab network includes over 1600 digital fabrication facilities in 120 countries.
+The Fab Lab network includes over 2,000 digital fabrication facilities in 126 countries.
 
 Lassiter is Director of the Fab Foundation, a non-profit organization committed to building technical capacity in a locality, improving individuals’ abilities to develop themselves and their communities and bringing access to tools and knowledge that cultivate and support innovating practices.
 
