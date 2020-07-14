@@ -12,7 +12,9 @@ Global Response to COVID-19
 
 HOST: Neil Gershenfeld 
 
-SPEAKERS: Pranam Chatterjee, Zach Fredin, Joel Gershenfeld, Danny Beesley
+SPEAKERS: Max Lobovsky, Pranam Chatterjee, Alysia Garmulewicz, 
+Zach Fredin, Joel Gershenfeld, Danny Beesley, Roberto Garcia,
+William Baker
 
 More joining soon...
 
