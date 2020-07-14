@@ -481,7 +481,7 @@ title: FABxLive
     </article>
 
     <h5 class="my-4">Supported by</h5>
-    <article class="row d-flex">
+    <article class="row">
       <!-- add new images by using the file: _data/supported_by.yml -->
       {% for item in site.data.supported_by %}
       <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
@@ -492,8 +492,19 @@ title: FABxLive
       {% endfor %}
     </article>
 
+    <article class="row">
+      <!-- add new images by using the file: _data/supported_by_2.yml -->
+      {% for item in site.data.supported_by_2 %}
+      <div class="col-4 col-md-3 col-lg-2 mb-3">
+        <a href="{{item.url}}" target="_blank">
+          <img src="/uploads/{{ item.filename }}" class="img-fluid" alt=""/>
+        </a>
+      </div>
+      {% endfor %}
+    </article>
+
     <h5 class="my-4">In collaboration with</h5>
-    <article class="row d-flex">
+    <article class="row">
       <!-- add new images by using the file: _data/collaboration_with.yml -->
       {% for item in site.data.collaboration_with %}
       <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
