@@ -1,7 +1,7 @@
 ---
 name: Danny Beesley
 picture: "/uploads/danny.png"
-institution: CEO
+institution: CEO, IDEA BUILDER Labs
 
 ---
 
