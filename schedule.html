@@ -36,7 +36,7 @@ title: Schedule
 </section>
 
 
-<section class="pb-5">
+<section>
   <div class="tab-content" id="pills-date">
     {% assign all_days = site.events | group_by_exp:"site", "site.date | date: '%-d'" %}
     {% for each_day in all_days %}
