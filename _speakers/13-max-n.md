@@ -1,7 +1,7 @@
 ---
 name: Max Lobovsky
 picture: "/uploads/max.png"
-institution: CEO Formlabs
+institution: CEO, Formlabs
 
 ---
 
