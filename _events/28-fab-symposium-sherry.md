@@ -7,12 +7,13 @@ picture: '/uploads/day2.png'
 2HR SESSION
 
 
-Supporting Communities
+Community Action
 
 
 HOST: Sherry Lassiter
 
 
-SPEAKERS: Joining soon...
+SPEAKERS: Peter E. Raymond
+More joining soon...
 
 
