@@ -1,7 +1,7 @@
 ---
-- title: 'FABxLive'
+- title: Join today
   text: 'Online event in 2020'
-  url: http://fabxlive.fabevent.org/
+  url: https://fabxmembers.fabevent.org/
   image: banner-12.png
 
 - title: 
@@ -20,7 +20,7 @@
   url:
   image: banner-15.png
 
-- title: 
+- title: Apply today
   text: 
-  url:
+  url: https://fabxlive.fabevent.org/schedule
   image: 1banner-16.png
