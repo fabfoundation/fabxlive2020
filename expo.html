@@ -8,13 +8,20 @@ title: Expo
 
 {%- include bg-items-white.html -%}
 
-<div class="text-center my-5">
+<div class="text-center my-5 position-relative">
   <p>
   FABxLive invites all of the Fab Lab Network to participate in our virtual Exhibition that will showcase outstanding projects developed by the Fab Lab Community in the past 16 years. Have you done an amazing Academany project that you would like to exhibit? Did you develop a unique open-source machine in your lab? All projects are welcome, it doesn´t matter how far back you’ve developed it!
   </p>
   <a class="btn bg-red" href="https://docs.google.com/forms/d/e/1FAIpQLSdKb4Wxd8TvFMeIS25vvry4iDWFByWByYxUxjvmtJ4pZxvaYg/viewform" target="_blank">
     Submit your project and be part of the Fab legacy!
   </a>
+</div>
+
+<div class="text-center my-5">
+  {% assign all_tags = site.data.expo | map: 'tags' | uniq %}
+  {% for item in all_tags %}
+    <a href="#{{ item | downcase | url_encode }}" class="badge badge-info">{{ item }}</a>
+  {% endfor %}
 </div>
 
 <section class="card-columns">
@@ -30,6 +37,7 @@ title: Expo
       <p class="card-text">
       {{ item.text }}
       </p>
+      <small class="badge badge-info">{{item.tags | join: ', ' }}</small>
     </div>
   </article>
   {% endfor %}
