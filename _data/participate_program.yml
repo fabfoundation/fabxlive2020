@@ -1,31 +1,31 @@
 ---
 - supporter: chevron
-  image: bio1.png
+  image: CVX_humanenergy.png
   date: JUL 27
   description: DESCRIPTION...
   topic: TOPIC..
   url: https://fabxlive.fabevent.org/
 
 - supporter: brother
-  image: bio2.png
-  date: JUL 28
-  description: DESCRIPTION...
-  text: July 
-  topic: TOPIC..
-  url:
+  image: brother.png
+  date: JUL 27-30
+  description: Join the Brother teams in Japan and the US Monday-Thursday!
+  text:  
+  topic: 
+  url: https://fabxlive.fabevent.org/
 
 - supporter: solidworks
   image: bio2.png
-  date: JUL 28
-  topic: TOPIC..
-  description: DESCRIPTION 1...
-  text: July 
-  url: 
-
-- supporter: solidworks
-  image: bio3.png
   date: JUL 29
-  topic: TOPIC..
-  description: DESCRIPTION 2...
-  text: July 
+  topic: 3DEXPERIENCE Works for Startups
+  description: 
+  text:  
+  url: https://fabxlive.fabevent.org/
+
+- supporter: solidworks
+  image: bio2.png
+  date: JUL 30
+  topic: SOLIDWORKS APPS for Kids
+  description: 
+  text: 
   url: https://fabxlive.fabevent.org/
