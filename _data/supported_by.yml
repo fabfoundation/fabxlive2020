@@ -1,4 +1,7 @@
 ---
+- url: 'https://www.chevron.com/'
+  filename: "CVX3.png"
+
 - url: 'https://www.3ds.com/'
   filename: 'dassault-systemes-logo.svg'
 
