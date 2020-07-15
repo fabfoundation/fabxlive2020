@@ -7,9 +7,8 @@ date: 2020-07-28T16:00:00.000+00:00
 30MIN
 
 
-Get to meet our sponosor and look engange on a future 
-collaboration where you, your team and your lab can
-discuss, propose and interact on this 30min sessions
-each day! 
+Meet with our incredible sponosors in these 30 min sessions, a chance for your team and your lab to
+discuss, propose and interact with these incredible collaborators!
 
-So program yourself to check them out everyday
+Check them out everyday! Registrations coming soon!
+

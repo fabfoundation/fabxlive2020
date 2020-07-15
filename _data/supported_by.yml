@@ -1,4 +1,7 @@
 ---
+- url: 'https://www.chevron.com/'
+  filename: "CVX3.png"
+
 - url: 'https://www.3ds.com/'
   filename: 'dassault-systemes-logo.svg'
 
@@ -8,6 +11,4 @@
 - url: 'https://3dexperiencelab.3ds.com/en/homepage/'
   filename: '3dexp.jpg'  
   
-- url: 'https://forestscientific.com/'
-  filename: 'fs.png'
   

@@ -1,21 +1,33 @@
 ---
 - name: Norella Coronell
   text: Project Manager
-  picture: norella.png
+  picture: 'norella.png'
 
-- name: Francisco Sanchez Arroyo
-  text: The Beach Lab x Europe 
+- name: Francisco Sanchez
+  text: Production Manager
   picture: "fran.jpeg"
 
-- name: Anastasia
+- name: Anastasia Pistofidou
   text: Content Manager
-  picture: anastasia.jpg
+  picture: 'anastasia.jpg'
 
 - name: Rebecca Ottinger
-  text: Executive Officer
+  text: Logistics Manager
   picture: "rebecca-ottinger.png"
 
 - name: Viktor Smári
   text: Software Developer
   picture: 'viktor.jpg'
 
+- name: Sarah Boisvert
+  text: Fundraising
+  picture: 'sarah.jpg'
+  
+- name: Christian Cherene
+  text: Production Assistant
+  picture: 'christian.jpg'
+  
+- name: Miriam Choi
+  text: Graphic Designer
+  picture: 'miriam.jpg'
+  
