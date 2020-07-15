@@ -1,7 +1,7 @@
 ---
 - name: Norella Coronell
   text: Project Manager
-  picture: norella.png
+  picture: 'norella.png'
 
 - name: Francisco Sanchez
   text: Production Manager
@@ -9,7 +9,7 @@
 
 - name: Anastasia Pistofidou
   text: Content Manager
-  picture: anastasia.jpg
+  picture: 'anastasia.jpg'
 
 - name: Rebecca Ottinger
   text: Logistics Manager
@@ -18,6 +18,10 @@
 - name: Viktor Smári
   text: Software Developer
   picture: 'viktor.jpg'
+
+- name: Sarah Boisvert
+  text: Fundraising
+  picture: 'sarah.jpg'
   
 - name: Christian Cherene
   text: Production Assistant
