@@ -89,16 +89,7 @@ title: FABxLive
 
     </div>
 
-    <p>
-    FABxLive takes a team of experts and coordinators to make it a smooth and thoughtful experience for everyone. 
-    We made a point of making sure that this conference would be open to everyone and there would be no monetary barrier.  
-    But the meeting does cost money to run. Please consider making a  contribution to help with the costs of  FABXLive.  
-    We very much appreciate your kind donation, at any level. 
-    </p>
-
-    <div class="text-center">
-      <a class="btn bg-red shadow" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=34FLFMHL4ACB6&source=url" target="_blank">MAKE A CONTRIBUTION</a>
-    </div>
+    {%- include contribution.html -%}
 
   </div>
 </section>
@@ -263,17 +254,6 @@ title: FABxLive
       </div>
 
       <div class="col-12 mt-5">
-        <p>
-        FABxLive takes a team of experts and coordinators to make it a smooth and thoughtful experience for everyone.
-        We made a point of making sure that this conference would be open to everyone and there would be no monetary barrier.
-        But the meeting does cost money to run. Please consider making a  contribution to help with the costs of  FABXLive.
-        We very much appreciate your kind donation, at any level. 
-        </p>
-
-        <div class="text-center mb-5">
-          <a class="btn bg-yellow shadow" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=34FLFMHL4ACB6&source=url" target="_blank">MAKE A CONTRIBUTION</a>
-        </div>
-
         <h2 class="text-yellow">JOIN OUR COLLABORATORS</h2>
         <p>
         This year our supporters want to engange more with the community, that is why they have a program of activities during the week every day from
@@ -285,30 +265,49 @@ title: FABxLive
     </article>
 
     <ul class="nav fab-pills-blue mb-4 text-uppercase" role="tablist">
-      <li class="nav-item border mr-1" role="presentation">
+      <li class="nav-item border m-1" role="presentation">
         <a class="nav-link active" id="tab-solidworks" data-toggle="tab" href="#participate-1" role="tab">SOLIDWORKS</a>
       </li>
-      <li class="nav-item border mr-1" role="presentation">
+      <li class="nav-item border m-1" role="presentation">
         <a class="nav-link" id="tab-chevron" data-toggle="tab" href="#participate-2" role="tab">CHEVRON</a>
       </li>
-      <li class="nav-item border" role="presentation">
+      <li class="nav-item border m-1" role="presentation">
         <a class="nav-link" id="tab-brother" data-toggle="tab" href="#participate-3" role="tab">BROTHER</a>
       </li>
     </ul>
 
-    <section class="tab-content" id="participate-tab-content">
+    <!-- add new items by using the file: _data/participate_program.yml -->
+    {% assign solidworks = site.data.participate_program | where: "supporter", 'solidworks' %}
+    {% assign chevron = site.data.participate_program | where: "supporter", 'chevron' %}
+    {% assign brother = site.data.participate_program | where: "supporter", 'brother' %}
+
+    <section class="tab-content mb-5" id="participate-tab-content">
       <article class="tab-pane fade show active" id="participate-1" role="tabpanel">
-        <p>Solidworks</p>
+        <div class="row">
+          {% for item in solidworks %}
+            {%- include supporter_activity.html -%}
+          {% endfor %}
+        </div>
       </article>
 
       <article class="tab-pane fade" id="participate-2" role="tabpanel">
-        <p>Chevron</p>
+        <div class="row">
+          {% for item in chevron %}
+            {%- include supporter_activity.html -%}
+          {% endfor %}
+        </div>
       </article>
 
       <article class="tab-pane fade" id="participate-3" role="tabpanel">
-        <p>Brother</p>
+        <div class="row">
+          {% for item in brother %}
+            {%- include supporter_activity.html -%}
+          {% endfor %}
+        </div>
       </article>
     </section>
+
+    {%- include contribution.html -%}
 
   </div>
 </section>
@@ -395,20 +394,20 @@ title: FABxLive
     <h1>CHALLENGES</h1>
 
     <ul class="nav fab-pills-blue mb-4 text-uppercase" role="tablist">
-      <li class="nav-item" role="presentation">
+      <li class="nav-item border m-1" role="presentation">
         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#challenge-1" role="tab">COVID-19 Innovation Award Soliworks</a>
       </li>
-      <li class="nav-item" role="presentation">
+      <li class="nav-item border m-1" role="presentation">
         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#challenge-2" role="tab">Mobile Hand Washing Challenge</a>
       </li>
-      <li class="nav-item" role="presentation">
+      <li class="nav-item border m-1" role="presentation">
         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#challenge-3" role="tab">Social distancing challenge</a>
       </li>
     </ul>
 
     <section class="tab-content" id="challenge-tab-content">
 
-      <article class="tab-pane fade" id="challenge-1" role="tabpanel">
+      <article class="tab-pane fade show active" id="challenge-1" role="tabpanel">
         <div class="row">
           <div class="col-lg-6 mb-4">
             <img class="img-fluid" src="/uploads/challenge-7.jpg" alt="Challenge">
@@ -449,7 +448,7 @@ title: FABxLive
         </div>
       </article>
       
-      <article class="tab-pane fade show active" id="challenge-2" role="tabpanel">
+      <article class="tab-pane fade" id="challenge-2" role="tabpanel">
         <div class="row">
           <div class="col-lg-6 mb-4">
             <p>
