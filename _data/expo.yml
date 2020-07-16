@@ -1,7 +1,7 @@
 
 ---
 - title: 'The Title'
-  text: 'The text'
+  text: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Wikipedia'
   picture: "profile-example.png"
   tags:
     - Educational Kit
@@ -18,7 +18,7 @@
   tags: HealthCare
 
 - title: 'The Title 4'
-  text: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Wikipedia'
+  text: 'In publishing and graphic design, Lorem iporm of a document or a typeface without relying on meaningful content. Wikipedia'
   picture: "profile-example.png"
   tags: Wearable
 
