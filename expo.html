@@ -20,7 +20,10 @@ title: Expo
 <div class="text-center my-5">
   {% assign all_tags = site.data.expo | map: 'tags' | uniq %}
   {% for item in all_tags %}
-    <a href="#{{ item | downcase | url_encode }}" class="badge badge-info">{{ item }}</a>
+    <a href="#/"
+      id="{{ item | slugify }}"
+      onClick="toggleTags('{{ item | slugify }}')"
+      class="badge badge-info">{{ item }}</a>
   {% endfor %}
 </div>
 
@@ -28,6 +31,7 @@ title: Expo
 
   <!-- add new expo in _data/expo.yml -->
   {% for item in site.data.expo %}
+
   <article class="card">
     <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
     <div class="card-body">
@@ -37,9 +41,30 @@ title: Expo
       <p class="card-text">
       {{ item.text }}
       </p>
-      <small class="badge badge-info">{{item.tags | join: ', ' }}</small>
+
+      <!-- If multiple tags -->
+      {% for tag in item.tags %}
+      <small class="badge badge-info {{tag | slugify }}">{{ tag }}</small>
+      {% endfor %}
     </div>
   </article>
   {% endfor %}
 
 </section>
+
+<script charset="utf-8">
+
+  function toggleTags(tag) {
+    // Change the badge when click
+    document.getElementById(tag).classList.toggle('badge-info');
+
+    // Hide the cards
+    cards = document.getElementsByClassName(tag);
+    //console.log(tag, cards.length);
+
+    Array.from(cards).forEach(function(item) {
+      //console.log(item);
+      item.parentElement.parentElement.classList.toggle('d-none')
+    });
+  }
+</script>
