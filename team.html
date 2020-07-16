@@ -11,7 +11,7 @@ title: Team
 
   <!-- add new team members in _data/team.yml -->
   {% for item in site.data.team %}
-  <article class="col-md-6 col-lg-4 col-xl-3">
+  <article class="col-sm-6 col-lg-3 mb-4">
     <div class="card">
       <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
       <div class="card-body">
@@ -33,11 +33,11 @@ title: Team
 
   <!-- add new team members in _data/staff.yml -->
   {% for item in site.data.staff %}
-  <article class="col-md-6 col-lg-4 col-xl-3">
+  <article class="col-sm-6 col-lg-3 mb-4">
     <div class="card">
       <img class="card-img-top" src="/uploads/{{ item.picture }}" alt="{{item.title}}"/>
       <div class="card-body">
-        <h5>{{item.name}}</h5>
+        <h6>{{item.name}}</h6>
         <p>
         {{ item.text }}
         </p>
