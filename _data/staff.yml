@@ -1,4 +1,16 @@
 ---
-- name: 
-  text: 
-  picture: 
+- name: Adrián Torres
+  text: Community Manager
+  picture: adrian.png
+
+- name: Pradnya Shindekar
+  text: Moderator
+  picture: pradnya.png
+  
+- name: Ojas Chouhan
+  text: IT
+  picture: ojas.png
+  
+- name: Manas Chhabra
+  text: Moderator
+  picture: manas.png
