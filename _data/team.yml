@@ -17,15 +17,15 @@
 
 - name: Viktor Smári
   text: Software Developer
-  picture: 'viktor.jpg'
-
-- name: Sarah Boisvert
-  text: Fundraising
-  picture: 'sarah.jpg'
+  picture: 'viktor.png'
   
 - name: Christian Cherene
   text: Production Assistant
   picture: 'christian.jpg'
+  
+- name: Sarah Boisvert
+  text: Fundraising
+  picture: 'sarah.jpg'
   
 - name: Miriam Choi
   text: Graphic Designer
