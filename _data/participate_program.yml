@@ -1,6 +1,6 @@
 ---
 - supporter: chevron
-  image: ch-day1.png
+  image: chev-day1.png
   date: JUL 27
   topic: Fab Lab Houston, Brent Richardson
   description: 
@@ -8,7 +8,7 @@
   url: https://fabxlive.fabevent.org/
   
 - supporter: chevron
-  image: ch-day2.png
+  image: chev-day2.png
   date: JUL 28
   topic: 
   description: 
@@ -16,7 +16,7 @@
   url: https://fabxlive.fabevent.org/
   
 - supporter: chevron
-  image: ch-day3.png
+  image: chev-day3.png
   date: JUL 29
   topic: NOLA Fab Lab, Elizabeth Buehler
   description: 
