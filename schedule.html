@@ -17,8 +17,6 @@ title: Schedule
     <p>Timezone: <strong id="current-timezone"></strong> </p>
   </div>
 
-  {% assign events_before = site.events_before %}
-  {% assign events_after = site.events_after %}
   {% assign all_days = site.events | group_by_exp:"site", "site.date | date: '%-d'" %}
 
   <ul class="nav fab-pills mb-3 justify-content-center" id="" role="tablist">
@@ -45,7 +43,8 @@ title: Schedule
   <div class="tab-content" id="pills-date">
 
     <div class="tab-pane fade" id="pills-before" role="tabpanel">
-      {% for item in events_before %}
+      <!-- use _events_before folder -->
+      {% for item in site.events_before %}
         {%- include schedule_each_day.html -%}
       {% endfor %}
     </div>
@@ -59,7 +58,8 @@ title: Schedule
     {% endfor %}
 
     <div class="tab-pane fade" id="pills-after" role="tabpanel">
-      {% for item in events_after %}
+      <!-- use _events_after folder -->
+      {% for item in site.events_after %}
         {%- include schedule_each_day.html -%}
       {% endfor %}
     </div>
