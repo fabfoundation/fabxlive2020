@@ -17,6 +17,8 @@ title: Schedule
     <p>Timezone: <strong id="current-timezone"></strong> </p>
   </div>
 
+  {% assign events_before = site.events_before %}
+  {% assign events_after = site.events_after %}
   {% assign all_days = site.events | group_by_exp:"site", "site.date | date: '%-d'" %}
 
   <ul class="nav fab-pills mb-3 justify-content-center" id="" role="tablist">
@@ -41,47 +43,25 @@ title: Schedule
 
 <section>
   <div class="tab-content" id="pills-date">
+
     <div class="tab-pane fade" id="pills-before" role="tabpanel">
-      <p class="p-4">Here will be events before the 27...</p>
+      {% for item in events_before %}
+        {%- include schedule_each_day.html -%}
+      {% endfor %}
     </div>
 
     {% for each_day in all_days %}
       <div class="tab-pane fade {% if forloop.first == true %} show active {% endif %}" id="pills-{{each_day.name}}" role="tabpanel" aria-labelledby="pills-{{each_day.name}}-tab">
         {% for item in each_day.items %}
-          <article class="row my-5">
-            <div class="col-md-5 col-lg-2 mb-2 speaker d-flex flex-column">
-
-              <div title="{{item.date}}" class="d-flex">
-                <div class="circle circle-25 bg-blue mr-2"></div>
-                <h5 class="mb-4 my-timezone">
-                </h5>
-              </div>
-
-              <div class="flex-fill cyan-vertical-line pl-3">
-                <p>
-                  {{item.date | date: "%H:%M %Z" }}
-                </p>
-                <span class="d-block">Countdown: <br> <strong class="countdown"></strong></span>
-                <span class="the-date-unix d-none">{{item.date | date: "%s" }}</span>
-              </div>
-            </div>
-
-            <div class="col-md-5 col-lg-4 mb-2">
-              <img src="{{ item.picture | absolute_url }}" class="img-fluid" style="" alt=""/>
-            </div>
-
-            <div class="col-md-12 col-lg-6 mb-5">
-              <h4 class="mt-4 text-uppercase">{{item.title}}</h4>
-              {{item.content}}
-            </div>
-          </article>
+          {%- include schedule_each_day.html -%}
         {% endfor %}
       </div>
-
     {% endfor %}
 
-    <div class="tab-pane fade " id="pills-after" role="tabpanel">
-      <p class="p-4">Here will be events after the 31...</p>
+    <div class="tab-pane fade" id="pills-after" role="tabpanel">
+      {% for item in events_after %}
+        {%- include schedule_each_day.html -%}
+      {% endfor %}
     </div>
 
   </div>

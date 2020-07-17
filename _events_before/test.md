@@ -1,0 +1,7 @@
+---
+title: Test event before 2
+picture: "/uploads/bio1.png"
+date: 2020-07-14T15:00:00.000+00:00
+---
+
+Test nr 2

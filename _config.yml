@@ -22,7 +22,11 @@ plugins:
   - jekyll-seo-tag
 
 collections:
+  events_before:
+    output: true
   events:
+    output: true
+  events_after:
     output: true
   speakers:
     output: true
