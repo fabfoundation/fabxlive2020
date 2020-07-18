@@ -25,10 +25,18 @@
 
 - supporter: brother
   image: brother-day.png
-  date: JUL 27-30
-  topic:
-  description: Join the Brother teams in Japan and the US Monday-Thursday!
-  text:  
+  date: JUL 27
+  topic: Join Yuzo Takagi and the US Brother team!
+  description: 
+  text: Brother will be showing a quick corporate introduction video including a glimpse into the interesting application of their products, with a Q and A at the end for any questions.  
+  url: https://fabxlive.fabevent.org/
+  
+- supporter: brother
+  image: brother-day.png
+  date: JUL 29
+  topic: Join Yuzo Takagi and the US Brother team!
+  description: 
+  text: Brother will be showing a quick corporate introduction video including a glimpse into the interesting application of their products, with a Q and A at the end for any questions.  
   url: https://fabxlive.fabevent.org/
 
 - supporter: solidworks
