@@ -12,9 +12,11 @@ Community Action
 
 HOST: Sherry Lassiter
 
+KEYNOTES: Sename Koffi & Peter Raymond
 
-SPEAKERS: Peter E. Raymond
+SPEAKERS: Christie Mettes, Vaibhav Chhabra, Richa Shrivastava, Thomas Landrain & Sameera Chukkapalli
 
-More joining soon...
+
+[Check LIVE here](https://www.youtube.com/watch?v=Hvtuc8yEbbQ)
 
 
