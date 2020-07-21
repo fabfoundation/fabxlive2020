@@ -13,6 +13,7 @@ Rebooting Economies
 HOST: Blair Evans
 
 
-SPEAKERS: Joining soon...
+SPEAKERS: Juliet Schor, more joining soon...
 
+[LIVE here](https://www.youtube.com/watch?v=4khW0LOSZfM)
 
