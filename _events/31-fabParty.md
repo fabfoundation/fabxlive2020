@@ -1,10 +1,10 @@
 ---
 title: Academany Party
 picture: "/uploads/FAparty.png"
-date: 2020-07-29T16:30:00.000+00:00
+date: 2020-07-31T16:15:00.000+00:00
 ---
 
-30MIN
+45MIN
 
 
 This year we want to gather virtually with all
