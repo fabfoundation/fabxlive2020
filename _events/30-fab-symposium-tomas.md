@@ -13,6 +13,6 @@ Emergent Futures
 HOST: Tomas Diez
 
 
-SPEAKERS: Joining soon...
+SPEAKERS: Tomas Vivanco, Roberth Garita, more joining soon...
 
-
+[Check LIVE here](https://www.youtube.com/watch?v=mGR_IcDo0gY)
