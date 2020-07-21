@@ -11,6 +11,10 @@
   text: IT
   picture: ojas.png
   
+- name: Daniela Viloria
+  text: Moderator
+  picture: daniela.png
+  
 - name: Manas Chhabra
   text: Moderator
   picture: manas.png
@@ -31,6 +35,10 @@
   text: IT
   picture: guillermo.png
   
+- name: Angela Barbour
+  text: Moderator
+  picture: angela.png
+  
 - name: Dintis Thomas
   text: Community Manager
   picture: dintis.png
@@ -50,3 +58,11 @@
 - name: Fares Alshamali
   text: General Content
   picture: fares.png
+
+- name: Diana Di Tolla
+  text: Moderator
+  picture: diana.png
+  
+
+  
+
