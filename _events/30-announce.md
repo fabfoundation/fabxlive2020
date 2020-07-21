@@ -1,6 +1,6 @@
 ---
 title: Announcements
-picture: "/uploads/join.png"
+picture: "/uploads/allabout.png"
 date: 2020-07-30T15:15:00.000+00:00
 ---
 
