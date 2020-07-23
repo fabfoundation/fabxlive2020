@@ -1,5 +1,5 @@
 ---
-title: Meditation
+title: LIVE Meditation
 picture: "/uploads/meditation.png"
 date: 2020-07-30T15:45:00.000+00:00
 ---
