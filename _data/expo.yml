@@ -1,6 +1,12 @@
 
 ---    
 
+- title: 'Fab Train Model'
+  text: 'The Fab Train Model is a set of modules that are part of a model. It incorporates a train detection system that moves a level crossing. This detection system can be used for other options, such as changing the signals or moving the motors of the changes of a station.'
+  picture: "expo-adrian.JPG"
+  tags:
+    - Drones
+
 - title: 'Lux, by Elena Cardiel'
   text: 'Lux is an interactive piece of furniture which is able to recognize the ambient light level and the presence of the user, adapting the output of light. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/leon/students/elena-cardiel/FP_final.html)'
   picture: "lux-elena.png"
@@ -14,7 +20,7 @@
     - Furniture Design
 
 - title: 'Laserbox, by Leo Lhermitte'
-  text: 'Laserbox is a dynamic scenography system using laser lights. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/sorbonne/students/leo-lhermitte/final_project.html)'
+  text: 'Laserbox is a dynamic scenography system using laser lights. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/sorbonne/students/leo-lhermitte/final_project.html)'
   picture: "laserbox-leo.png"
   tags: 
     - Machine
@@ -26,7 +32,7 @@
     - Wearable
   
 - title: 'Automated Indoor Hanging Garden, by Nagi Abdelnour'
-  text: 'The Automated hanging garden controls lighting, watering and ventilation. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/berytech/students/nagi-abdelnour/final%20project.html)'
+  text: 'The Automated hanging garden controls lighting, watering and ventilation. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/berytech/students/nagi-abdelnour/final%20project.html)'
   picture: "AIHG-nagi.png"
   tags: 
     - Sustainability
@@ -38,7 +44,7 @@
     - Game / Toy
     
 - title: 'Engrave, by Antonio Grillo'
-  text: 'E3 - EngraveCube is a little 6” Cube Engraver Machine. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/napoli/students/ntngrillo/projects/001_final-project/)'
+  text: 'E3 - EngraveCube is a little 6” Cube Engraver Machine. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/napoli/students/ntngrillo/projects/001_final-project/)'
   picture: "engravecube-antonio.png"
   tags: 
     - Machine
