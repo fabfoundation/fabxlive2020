@@ -9,68 +9,13 @@ Fab Train Model is compatible with other modules with the standars. Fab Train Mo
   picture: "expo-adrian.JPG"
   tags:
     - Drones
-
+    
 - title: 'Lux, by Elena Cardiel'
-Lux is an interactive piece of furniture which is able to recognize the ambient light level and the presence of the user, adapting the output of light. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/leon/students/elena-cardiel/FP_final.html)
+  text: 'Lux is an interactive piece of furniture which is able to recognize the ambient light level and the presence of the user, adapting the output of light. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/leon/students/elena-cardiel/FP_final.html)'
   picture: "lux-elena.png"
-  tags: Industrial_Design
-
-- title: 'FLO, by Kae Nagano'
-  text: 'FLO is an interactive fireplace humidifier with ultrasonic mist, for relaxation and visual pleasure. Fab Academy Final Project, 2019 [link to project](https://fabacademy.org/2019/labs/kamakura/students/kae-nagano/#final-project)'
-  picture: "flo-kae.png"
-  tags: Furniture_Design
-
-- title: 'Laserbox, by Leo Lhermitte'
-  text: 'Laserbox is a dynamic scenography system using laser lights. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/sorbonne/students/leo-lhermitte/final_project.html)'
-  picture: "laserbox-leo.png"
-  tags: Machine
-
-- title: 'Neo Clock, by Akhil G Babu'
-  text: 'Neo Clock is a water spray alarm clock that sprays water on heavy sleepers if the off button is not pushed. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/kochi/students/akhilg-babu/#/resume)'
-  picture: "neoclock-akhil.png"
-  tags: Wearable
+  tags: 
+    - Industrial_Design
   
-- title: 'Automated Indoor Hanging Garden, by Nagi Abdelnour'
-  text: 'The Automated hanging garden controls lighting, watering and ventilation. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/berytech/students/nagi-abdelnour/final%20project.html)'
-  picture: "AIHG-nagi.png"
-  tags: Sustainability
-  
-- title: 'Force Sensitive Longboard, by Jonathan Prieto Abasolo'
-  text: 'The Aerolongboard is a new concept of Electric Longboard that combines a very light board, with two powerful motors powered by a battery pack. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/utec/students/jonathan-abasolo/project.html)'
-  picture: "longboard-jon.png"
-  tags: Game / Toy
-    
-- title: 'Engrave, by Antonio Grillo'
-  text: 'E3 - EngraveCube is a little 6” Cube Engraver Machine. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/napoli/students/ntngrillo/projects/001_final-project/)'
-  picture: "engravecube-antonio.png"
-  tags: Machine
-    
-- title: 'Fab Buddy, by Philippe Libioulle'
-  text: 'Fab Buddy is a management device by Fab Labs that wants to control user access, machine performance, etc. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/echofab/students/philippe-libioulle/capstone.html)'
-  picture: "fabbuddy-phillipe.png"
-  tags: System
-    
-- title: 'Smart Helmet, by Miriam Choi'
-  text: 'The smart helmet reacts when the rider stops and changes the colors of the light to red, signaling the environment about the changes of movement. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/seoul/students/miriam-choi/final.html)'
-  picture: "helmet-miriam.png"
-  tags: Wearable
-    
-- title: 'Mirru In Out by Pamela Cecilia Martello Arana'
-  text: 'Mirru In Out is an entrance/exit system for cats to go in and out from their owner’s house, protected with a magnetic key. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/oshanghai/students/pamela-arana/final_outcome.html)'
-  picture: "mirru-pamela.png"
-  tags: System
-    
-- title: 'Tumbleweed, by Jesus Lopez de los Mozos'
-  text: 'Tumbleweed project is a biomimesis work, aiming to replicate a tumbleweed’s behaviour, and use it for agricultural purposes. The prototype is affordable, light, and wind-powered, and by movement, spreads seeds in abandoned places to help nature regenerate itself. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/leon/students/jesus-lopez/projects/final-project/)'
-  picture: "tumbleweed-jesus.png"
-  tags: Environment
-      
-- title: 'Fab-Kulele, by Josep Marti Elias'
-  text: 'The FabKulele is a smart Ukulele designed for learning. A portable, multisound Ukelele that is connected to the teacher's ukulele so he/she know where to hit the key, while being connected to the computer to explore the chord library. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/barcelona/students/josep-marti/FP-Result.html)'
-  picture: "fabkulele-josep.png"
-  tags: Music_Instrument
-
-
 - title: 'The Title 2'
   text: 'The text 2'
   picture: "profile-example.png"
