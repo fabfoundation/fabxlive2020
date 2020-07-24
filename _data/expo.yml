@@ -1,11 +1,7 @@
 
 ---
 - title: 'Fab Train Model'
-  text: 'The Fab Train Model is a set of modules that are part of a model. It incorporates a train detection system that moves a level crossing. This detection system can be used for other options, such as changing the signals or moving the motors of the changes of a station.
-
-I have milled the frame of the model with the CNC. For the electronics I use an ATtiny1614 with phototransistors to detect the train and servos to move the level crossing barriers. The barriers and signals are 3D printed. These boards are integrated into a 3D printed box. Below the track I have integrated the box with the electronics and cables. I modeled the landscape with Blender to later manufacture the composites. I put the track and decorate the landscape of the model.
-
-Fab Train Model is compatible with other modules with the standars. Fab Train Model is a sturdy, lightweight model with multipurpose electronics. It incorporates very precise details thanks to digital fabrication.'
+  text: 'The Fab Train Model is a set of modules that are part of a model. It incorporates a train detection system that moves a level crossing. This detection system can be used for other options, such as changing the signals or moving the motors of the changes of a station.'
   picture: "expo-adrian.JPG"
   tags:
     - Drones
@@ -75,7 +71,13 @@ Fab Train Model is compatible with other modules with the standars. Fab Train Mo
   picture: "tumbleweed-jesus.png"
   tags: 
     - Environment
-  
+
+- title: 'FabKulele, by Josep Marti Elias'
+  text: 'The FabKulele is a smart Ukulele designed for learning. A portable, multisound Ukelele that is connected to the teachers ukulele so he/she know where to hit the key, while being connected to the computer to explore the chord library. Fab Academy Final Project, 2019,[link to project](https://fabacademy.org/2019/labs/barcelona/students/josep-marti/FP-Result.html)'
+  picture: "fk-josep.png"
+  tags: 
+    - Music Instrument 
+
 - title: 'The Title 2'
   text: 'The text 2'
   picture: "profile-example.png"
