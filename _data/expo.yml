@@ -1,11 +1,5 @@
 
----
-- title: 'Fab Train Model'
-  text: 'The Fab Train Model is a set of modules that are part of a model. It incorporates a train detection system that moves a level crossing. This detection system can be used for other options, such as changing the signals or moving the motors of the changes of a station.'
-  picture: "expo-adrian.JPG"
-  tags:
-    - Drones
-    
+---    
 - title: 'Lux, by Elena Cardiel'
   text: 'Lux is an interactive piece of furniture which is able to recognize the ambient light level and the presence of the user, adapting the output of light. Fab Academy Final Project, 2019, [link to project](https://fabacademy.org/2019/labs/leon/students/elena-cardiel/FP_final.html)'
   picture: "lux-elena.png"
