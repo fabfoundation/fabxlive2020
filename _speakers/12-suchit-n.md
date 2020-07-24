@@ -1,6 +1,6 @@
 ---
 name: Suchit Jain
-picture: "/uploads/suchit.png"
+picture: "/uploads/Suchit.png"
 institution: Vice President Strategy & Business Development
 
 ---
