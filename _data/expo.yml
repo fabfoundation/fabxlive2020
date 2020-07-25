@@ -121,7 +121,7 @@
   tags: 
     - Industrial Design 
 
-- title: 'The V.I.G Logger, by Nicolas Decoster'
+- title: 'The VIG Logger, by Nicolas Decoster'
   text: 'A datalogger which is versatile, it can evolve through time to new protocols and measurements; interoperable, doesn't rely (too much) on a peculiar architecture; and gregarious, different modules for different tasks are assembled through a multi-core network. Fab Academt Final Project 2018.'
   picture: "VIGL-nicolas.png"
   tags: 
