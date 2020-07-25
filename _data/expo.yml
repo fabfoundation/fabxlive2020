@@ -144,15 +144,50 @@
   picture: "spoon-arnar.png"
   tags: Wearables
 
-- title: 'The Title 2'
-  text: 'The text 2'
-  picture: "profile-example.png"
-  tags: Drones
+- title: 'Palla Robot, by Pietro Rustici'
+  text: 'It’s a rotating multi-terrain robot. The 200 mm sphere moves by rolling and it’s controlled through a phone app. Fab Academt Final Project 2017.'
+  picture: "palla-pietro.png"
+  tags: Robot 
+  
+- title: 'HECTOR CNC machine, by Jakob Nielsen'
+  text: 'For my final project I made a suitcase sized CNC machine that can milled from aluminium and POM (Delrin) sheet stock. All the electronics except the motors can also be made in a fab lab. My design builds on the excellent prior work done by Jens Dyvik in the Fellesverkstedet - Fabricateable machines project and the Satsha-boards Satshakit and Satstep6600 made by Daniele Ingrassia. Fab Academt Final Project 2017.'
+  picture: "hector-jakob.png"
+  tags: Machine 
+  
+- title: 'Plexi LED Guitar, by Birkir Þór Hauksson'
+  text: 'It’s a guitar with kill switch and sound sensor that effects LED lights, which illumine engraved plexiglass. Fab Academt Final Project 2017.'
+  picture: "guitar-birkir.png"
+  tags: Music Instrument 
 
-- title: 'The Title 3'
-  text: 'The text 3'
-  picture: "profile-example.png"
-  tags: HealthCare
+- title: 'Vac-Former, by Louis Goh'
+  text: '"It’s a  a small sized Vacuum former. It uses a thermistor that detects the temperature, and when it’s optimum for the plastic material, the light and sound indicators inform that the plastic is prime for vacuum forming.". Fab Academt Final Project 2017.'
+  picture: "vacformer-louis.png"
+  tags: Machine 
+  
+- title: 'Fab Saver, by Rodrigo Diaz'
+  text: 'It’s a light saber, featured with capacitive input crystal  to define the color’s blade to match the side of the force… Fab Academt Final Project 2017.'
+  picture: "fabsaber-rodrigo.png"
+  tags: Game 
+
+- title: 'Open Hydroponic Growsystem, by Marcel Kellner'
+  text: 'It’s an hydroponic growbox, which can be completely manufactured in a fablab, featured with different sensors. The aim is to measure, control and represent the air humidity, lighting, pump, temperature and the water level of the nutrient solution, in order to find an effective way to plant herbs and salads all year round without consuming a lot of space. Fab Academt Final Project 2017.'
+  picture: "growsystem-marcel.png"
+  tags: System 
+  
+- title: 'Easy Tester, by Ajith Kumar M G'
+  text: 'It’s a portable device with SMD measuring capability, with easily detachable tweezer probes for testing on board components and leaded components. The measurement is displayed on a LCD display. Fab Academt Final Project 2017.'
+  picture: "heroeasy-ajith.png"
+  tags: Game 
+
+- title: 'The Walk Work Wheel, by Jim Seelan'
+  text: 'It’s a giant hamster wheel. It combines with a standing desk to have active workspace. To keep track of the workout, the Reed sensor measures the rotations and send data to an Android device via Bluetooth, in order to be displayed in a mobile app. Fab Academt Final Project 2017.'
+  picture: "wheel-jim.png"
+  tags: System
+
+- title: 'Rocking Robot, by Shenghong Cao'
+  text: 'It’s an intelligent robot for kids. It is controlled by a mobile, through Bluetooth. Its main functions are: auto balance, object recognition and track, voice distance broadcast and speech recognition. Fab Academt Final Project 2017.'
+  picture: "robot-sheng.png"
+  tags: Robot
 
 - title: 'The Title 4'
   text: 'In publishing and graphic design, Lorem iporm of a document or a typeface without relying on meaningful content. Wikipedia'
