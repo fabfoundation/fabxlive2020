@@ -134,7 +134,7 @@
     - Machine 
 
 - title: 'Posturea, by Victoria Peredo Robinson'
-  text: 'Is a posture corrector that measures the inclunation angle of the body (accelerometer) as well as excesive stretching of the shoulders (conductive thread) to check if the subject is in a correct position, and signal if they don't. Fab Academt Final Project 2018.'
+  text: 'Is a posture corrector that measures the inclunation angle of the body (accelerometer) as well as excesive stretching of the shoulders (conductive thread) to check if the subject is in a correct position, and signal if they dont. Fab Academt Final Project 2018.'
   picture: "posturea-victoria.png"
   tags: 
     - Wearable 
