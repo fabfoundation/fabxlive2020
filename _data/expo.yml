@@ -82,57 +82,68 @@
 - title: 'Tha Anti Soggy Spoon, by Arnardadi Thorisson'
   text: 'This is a device to attach on any metal spoon that would add milk to each spoonful of cereal. To avoid sogginess the bowl of cereal would not contain any milk. With a press of a certain motion the device dispenses milk into your spoon so the cereal doesn't get soggy and you save cereal if you get stuffed. Fab Academt Final Project 2018.'
   picture: "spoon-arnar.png"
-  tags: Wearables 
+  tags: 
+    - Wearables 
   
 - title: 'Skater Dolly, by Daniel Bruns'
   text: 'A skater dolly camera, to move a camera while filming, giving it a natural and stereoscopic view. Fab Academt Final Project 2018.'
   picture: "dolly-nils.png"
-  tags: System 
+  tags: 
+    - System 
   
 - title: 'Preforming Machine, by David Mccallum'
   text: 'The Harp plays a 3D printer as a musical instrument. The interface has six rods, which when stroked cause the 3D printer to move its print head in six unique expressions. The force of the stroke controls the speed—and so the pitch—of the expression. Each expression comes from the gcode used to print each of the rods, so the instrument is in effect performing elements of its own construction. The frame is designed to look similar to the printer that is being used, an Ultimaker Original. Fab Academt Final Project 2018.'
   picture: "3Dmusic-david.png"
-  tags: Machine 
+  tags: 
+    - Machine 
   
 - title: 'Protolight, by Kai Naito'
   text: 'Lighting system to turn on and off the ambience light by "touching it". Fab Academt Final Project 2018.'
   picture: "protolight-kai.png"
-  tags: Industrial Design 
+  tags: 
+    - Industrial Design 
   
 - title: 'uMap, by Krisjanis Rijnieks'
   text: 'uMap is a a pocket-size device with a 2-axis push-button joystic to control a projection mapping tool. Fab Academt Final Project 2018.'
   picture: "umap-kris.png"
-  tags: System 
+  tags: 
+    - System 
   
 - title: 'FabKit, by Laura Cipriani'
   text: 'TOTS is a "training of trainers tool box" that contains a series of exercise-boards, related to digital fabrication, for help trainers to teach digital fabrication, electronics and much more. Each tutorial corresponds to an example of the exercise done and a printable web page -with the thermal printer that will be integrated into the chest of drawers. This project is designed for **FABKIT**, a project by **Global Humanitarian Lab**. Fab Academt Final Project 2018.'
   picture: "tots-laura.png"
-  tags: Machine 
+  tags: 
+    - Machine 
   
 - title: 'Fab GoTo, by Marc Lemaire'
   text: 'A rigid, lightweight, lowcost telescope base with a Lower Optical Assembly - LOA. Fab Academt Final Project 2018.'
   picture: "fabgoto-marc.png"
-  tags: Machine 
+  tags: 
+    - Machine 
   
 - title: 'Orrery Night Lamp, by Megumi Iwata'
   text: 'A lamp that is also a mechanical model of the solar system. Fab Academt Final Project 2018.'
   picture: "orrery-megumi.png"
-  tags: Industrial Design 
+  tags: 
+    - Industrial Design 
   
 - title: 'The V.I.G Logger, by Nicolas Decoster'
   text: 'A datalogger which is versatile, it can evolve through time to new protocols and measurements; interoperable, doesn't rely (too much) on a peculiar architecture; and gregarious, different modules for different tasks are assembled through a multi-core network. Fab Academt Final Project 2018.'
   picture: "VIGL-nicolas.png"
-  tags: Machine 
+  tags: 
+    - Machine 
   
 - title: 'Sous-Vide Cooking device, by Victor Levy'
   text: 'A device for cooking sous-vide (controled temperatoure) and monitoring the process. Fab Academt Final Project 2018.'
   picture: "cook-victor.png"
-  tags: Machine 
+  tags: 
+    - Machine 
   
 - title: 'Posturea, by Victoria Peredo Robinson'
   text: 'Is a posture corrector that measures the inclunation angle of the body (accelerometer) as well as excesive stretching of the shoulders (conductive thread) to check if the subject is in a correct position, and signal if they don't. Fab Academt Final Project 2018.'
   picture: "posturea-victoria.png"
-  tags: Wearable 
+  tags: 
+    - Wearable 
   
 - title: 'The Title 2'
   text: 'The text 2'
