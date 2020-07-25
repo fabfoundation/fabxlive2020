@@ -104,7 +104,7 @@
     - System 
 
 - title: 'FabKit, by Laura Cipriani'
-  text: 'TOTS is a "training of trainers tool box" that contains a series of exercise-boards, related to digital fabrication, for help trainers to teach digital fabrication, electronics and much more. Each tutorial corresponds to an example of the exercise done and a printable web page -with the thermal printer that will be integrated into the chest of drawers. This project is designed for **FABKIT**, a project by **Global Humanitarian Lab**. Fab Academt Final Project 2018.'
+  text: 'TOTS is a "training of trainers tool box" that contains a series of exercise-boards, related to digital fabrication, for help trainers to teach digital fabrication, electronics and much more. Each tutorial corresponds to an example of the exercise done and a printable web page -with the thermal printer that will be integrated into the chest of drawers. This project is designed for FABKIT, a project by Global Humanitarian Lab. Fab Academt Final Project 2018.'
   picture: "tots-laura.png"
   tags: 
     - Machine 
@@ -174,7 +174,7 @@
   picture: "growsystem-marcel.png"
   tags: System 
   
-- title: 'Easy Tester, by Ajith Kumar M G'
+- title: 'Easy Tester, by Ajith Kumar'
   text: 'It’s a portable device with SMD measuring capability, with easily detachable tweezer probes for testing on board components and leaded components. The measurement is displayed on a LCD display. Fab Academt Final Project 2017.'
   picture: "heroeasy-ajith.png"
   tags: Game 
