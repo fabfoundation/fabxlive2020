@@ -208,3 +208,9 @@
   text: 'India wastes around 16% of its agricultural produce annually due to its weak cold chain infrastructure according to a study conducted by Central Institute of Post-Harvest Engineering and Technology. We at Vigyan Ashram have been working on food dehydration as a means to preserve agricultural produce. Dehydration will not only save the agricultural produce from wastage but will also help the farmer get the right price for his produce since the farmer can store his/her produce when the market price is low and sell it once the price goes up.The solar dome dryer uses solar energy to dehyadrate agricultural produce. It has a black dome shaped cover which absorbs solar radiation and produces heat. This heat is transfered to the air which gets sucked inside the dryer through the holes on its surface due to an exhaust fan fitted at its top. The hot air gives latent heat to the water present in the substrate. The water then evaporates and is carried away by the fan leaving the product dry'
   picture: "expo-shubham.jpg"
   tags: Enviroment
+  
+- title: 'Ajrakh block painting machine by Vigyan Ashram team'
+  text: '"Ajarakh is a traditional art of India for block printing mainly on fabric done manually.So,to reduce human efforts and sustain this ancient art we decided to make X,Y,Z axis (CNC) block printing mahine for our make a machine week.Highlights of Machine Automatic block printing on cloth /fabric(saree).Automatic loading and unloading of cloth.Multiple stamping is possible at one time.Machine controlled through Mobile App.'
+  picture: "expo-fabacademy.jpg"
+  tags: 
+    - Machine 
