@@ -214,3 +214,29 @@
   picture: "expo-fabacademy.jpg"
   tags: 
     - Machine 
+    
+- title: 'Dar À Luz, by Gabriela Lotaif'
+  text: 'Dar À Luz (in Portuguese, to give light, to give birth) is a costume performance based on the concepts of skin, gestation and movement recreated and intertwined through the possibilities allowed by digital fabrication and ‘biodesign’. The aim of this piece is to bring technology close to the most sensorial and palpable human beings have: their bodies. Fabricademy Final Project 2019.'
+  picture: "daraluz-gabriela.png"
+  tags: Costume Design
+
+- title: 'beGrounded, by Lara Campos'
+  text: 'beGrounded is a project that explores the relationship between humans and other living organisms, as an emotional and artistic act through textiles. It proposes a new habitable space in the form of a woven garment with growing sprouts, as a sensorial and interactive experience.It’s not just about wearing it, but about growing it. Fabricademy Final Project 2019.'
+  picture: "begrounded-lara.png"
+  tags: Wearable
+
+- title: 'Modular Smart T-Shirt, by Tasneem Hussain'
+  text: 'My project is targeted to explore different concepts related to smart clothing using e-textiles sensors, IOT and AI to design a smart wearable with modular features for biometering purposes. Fabricademy Final Project 2020.'
+  picture: "tshirt-tasneem.png"
+  tags: Wearable
+
+- title: 'Bioplastic Battoulah, by Rabab Abdulla'
+  text: 'A series of bioplastic facecoverings. Fabricademy Final Project 2020.'
+  picture: "Battoulah-Rabab.png"
+  tags: Sustainability
+
+- title: 'Robot Vacuum Cleaner, by Gerardo Saz'
+  text: 'My final project is a robot vacuum cleaner based on iRobot's Roomba, although with my own design. I chose this project because I will apply the knowledge I have learned in the assigments below to build the robot vacuum cleaner. Fab Academy Final Project 2018.'
+  picture: "RVC-gerardo.png"
+  tags: Machine
+  
