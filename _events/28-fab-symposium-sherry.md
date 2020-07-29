@@ -19,4 +19,5 @@ SPEAKERS: Christie Mettes, Vaibhav Chhabra, Richa Shrivastava, Thomas Landrain &
 
 [Check LIVE here](https://www.youtube.com/watch?v=Hvtuc8yEbbQ)
 
+[Check links during the session here](https://fabxlive.fabevent.org/community)
 
