@@ -13,6 +13,8 @@ Emergent Futures
 HOST: Tomas Diez
 
 
-SPEAKERS: Tomas Vivanco, Roberth Garita, more joining soon...
+SPEAKERS: Tomas Vivanco, Roberth Garita, Alejandra Diaz de León, Carmen Aguilar y Wedge & Ece Tankal
 
-[LIVE here](https://www.youtube.com/watch?v=mGR_IcDo0gY)
+[Watch LIVE here](https://www.youtube.com/watch?v=mGR_IcDo0gY)
+
+[Check links during the session here](https://fabxlive.fabevent.org/society)
