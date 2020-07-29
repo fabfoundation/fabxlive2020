@@ -3,7 +3,7 @@ layout: container
 title: Society
 ---
 
-# Emergent Fututes
+# Emergent Futures
 
 Tomas Diez
 
