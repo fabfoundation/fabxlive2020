@@ -15,5 +15,7 @@ HOST: Blair Evans
 
 SPEAKERS: Juliet Schor, more joining soon...
 
-[LIVE here](https://www.youtube.com/watch?v=4khW0LOSZfM)
+[Watch LIVE here](https://www.youtube.com/watch?v=4khW0LOSZfM)
+
+[Check links during the session here](https://fabxlive.fabevent.org/economy)
 
