@@ -13,7 +13,7 @@ Rebooting Economies
 HOST: Blair Evans
 
 
-SPEAKERS: Juliet Schor, more joining soon...
+SPEAKERS: Juliet Schor, Vasilis Kostakis, Cindy Kohtala & Kali Akuno
 
 [Watch LIVE here](https://www.youtube.com/watch?v=4khW0LOSZfM)
 
