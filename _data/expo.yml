@@ -286,7 +286,7 @@
   tags: Sustainability
 
 - title: 'Autofarm Datalogger , by Suhas Labade & Vigyan Ashram Lab '
-  text: '"Objective of this project is  to design and fabricate a device that collects and store temperature and relative humidity data to analyze  and maintain plant health inside controlled environment like poly house /Greenhouse. This device measures temperature and relative humidity data using Bosch BME280 sensor and sends this to thing speak cloud using ESP32 controller and SIM800L GSM module. Considering remote locations and electricity issues this device is solar powered. Vigyan Ashram's Research project, 2019.'
+  text: 'Objective of this project is  to design and fabricate a device that collects and store temperature and relative humidity data to analyze  and maintain plant health inside controlled environment like poly house /Greenhouse. This device measures temperature and relative humidity data using Bosch BME280 sensor and sends this to thing speak cloud using ESP32 controller and SIM800L GSM module. Considering remote locations and electricity issues this device is solar powered. Vigyan Ashram's Research project, 2019.'
   picture: "autofarm-suhas.jpg"
   tags: Environmental Data
 
@@ -301,7 +301,7 @@
   tags: Industrial design
 
 - title: 'BOMBYX BRICKS, by	Ilaria La Manna'
-  text: '"Bombyx Bricks is a new concept to generate construction in architecture, while reducing the building of infrastructure, manufacturers and workers. Imagine to grow architecture from a bio material that comes from a cocoons. The shape grows with a porous texture that is controlled and regulated by pressure and temperature. All the investigation was developed in Boston at the Silk Lab, direct by Prof. Fiorenzo Omenetto.". BioAcademy Final Project 2015.'
+  text: 'Bombyx Bricks is a new concept to generate construction in architecture, while reducing the building of infrastructure, manufacturers and workers. Imagine to grow architecture from a bio material that comes from a cocoons. The shape grows with a porous texture that is controlled and regulated by pressure and temperature. All the investigation was developed in Boston at the Silk Lab, direct by Prof. Fiorenzo Omenetto. BioAcademy Final Project 2015.'
   picture: "bombix-ilaria.png"
   tags: Biodesign
   
