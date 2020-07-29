@@ -16,5 +16,6 @@ SPEAKERS: Pranam Chatterjee, Zach Fredin, Alfonso Parra Rubio, Jonathan Jilesen,
 Lars Hasselblad Torres, Zenia Tata
 
 [Check LIVE here](https://youtu.be/1n7UnnqU5uE) 
+
 [Check links during the session here](https://fabxlive.fabevent.org/response)
 
