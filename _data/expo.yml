@@ -285,7 +285,7 @@
   picture: "fabsprout-luc.jpg"
   tags: Sustainability
 
-- title: 'Autofarm Datalogger , by Suhas Labade & Vigyan Ashram Lab '
+- title: 'Autofarm Datalogger, by Suhas Labade & Vigyan Ashram Lab'
   text: 'Objective of this project is  to design and fabricate a device that collects and store temperature and relative humidity data to analyze  and maintain plant health inside controlled environment like poly house /Greenhouse. This device measures temperature and relative humidity data using Bosch BME280 sensor and sends this to thing speak cloud using ESP32 controller and SIM800L GSM module. Considering remote locations and electricity issues this device is solar powered. Vigyan Ashram's Research project, 2019.'
   picture: "autofarm-suhas.jpg"
   tags: Environmental Data
