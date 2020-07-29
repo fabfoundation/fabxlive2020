@@ -11,12 +11,6 @@ title: Response
 * [https://gitlab.fabcloud.org/pub/project/coronavirus/tracking](https://gitlab.fabcloud.org/pub/project/coronavirus/tracking)
 
 
-9:05-9:10: Pranam: molecular rapid-prototyping
-
-
-* [http://news.mit.edu/2020/peptide-binds-covid-19-proteins-0622](http://news.mit.edu/2020/peptide-binds-covid-19-proteins-0622)
-
-
 9:10-9:25: Jonathan, Zach, Alfonso, Willie, Stephanie, Zaid: design, simulation, prototyping, cutting, folding, testing the shield and isolation box
 
 
@@ -27,44 +21,47 @@ title: Response
 * [https://gitlab.cba.mit.edu/alfonso/fabshield](https://gitlab.cba.mit.edu/alfonso/fabshield)
 * [https://www.bmc.org/about-us](https://www.bmc.org/about-us)
 * [https://www.bmc.org/medical-professionals/solomont-sim-center](https://www.bmc.org/medical-professionals/solomont-sim-center)
+* [https://mymedia.bu.edu/media/1_xxim7qvw](https://mymedia.bu.edu/media/1_xxim7qvw)
+* [http://www.bumc.bu.edu/emergencymedicine/](http://www.bumc.bu.edu/emergencymedicine/)
 
 
 9:30-9:45: Josef, Max, Suchit: redirecting your companies
 
 
-* https://www.prusa3d.com/covid19/
-* https://formlabs.com/covid-19-response/
-* https://3dexperiencelab.3ds.com/en/projects/fablab/open-covid-19/
+* [https://www.prusa3d.com/covid19/](https://www.prusa3d.com/covid19/)
+* [https://formlabs.com/covid-19-response/](https://formlabs.com/covid-19-response/)
+* [https://3dexperiencelab.3ds.com/en/projects/fablab/open-covid-19/](https://3dexperiencelab.3ds.com/en/projects/fablab/open-covid-19/)
 
 
 9:50-10:05: Dan, Roberto, Cesar: organizing makers
 
 
-* https://www.makery.info/en/2020/06/17/english-spanish-makers-ongoing-fight-against-covid-19/
-* http://fab.academany.org/2020/labs/incitefocus/students/daniel-meyer/projects/02Covid19Response2020/
-* https://www.somosrim.org/
+* [https://www.makery.info/en/2020/06/17/english-spanish-makers-ongoing-fight-against-covid-19/](https://www.makery.info/en/2020/06/17/english-spanish-makers-ongoing-fight-against-covid-19/)
+* [https://www.coronavirusmakers.org](https://www.coronavirusmakers.org)
+* [http://fab.academany.org/2020/labs/incitefocus/students/daniel-meyer/projects/02Covid19Response2020/](http://fab.academany.org/2020/labs/incitefocus/students/daniel-meyer/projects/02Covid19Response2020/)
+* [https://www.somosrim.org/](https://www.somosrim.org/)
 
 
 10:10-10:25: Martina, Alysia, Joel: rapid response vs regulation
 
 
-* https://www.theverge.com/2020/3/17/21184308/coronavirus-italy-medical-3d-print-valves-treatments
-* https://gitlab.cba.mit.edu/pub/coronavirus/waste-ppe
-* http://designingreality.org/
+* [https://www.theverge.com/2020/3/17/21184308/coronavirus-italy-medical-3d-print-valves-treatments](https://www.theverge.com/2020/3/17/21184308/coronavirus-italy-medical-3d-print-valves-treatments)
+* [https://gitlab.cba.mit.edu/pub/coronavirus/waste-ppe](https://gitlab.cba.mit.edu/pub/coronavirus/waste-ppe)
+* [http://designingreality.org/](http://designingreality.org/)
 
 
 10:25-10:35: Alex, Kamau, Manu: beyond supply chains
 
 
-* https://www.npr.org/sections/goatsandsoda/2020/07/15/889802561/a-covid-19-success-story-in-rwanda-free-testing-robot-caregivers
-* http://www.gearbox.co.ke/
-* http://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/covid19/
+* [https://www.npr.org/sections/goatsandsoda/2020/07/15/889802561/a-covid-19-success-story-in-rwanda-free-testing-robot-caregivers](https://www.npr.org/sections/goatsandsoda/2020/07/15/889802561/a-covid-19-success-story-in-rwanda-free-testing-robot-caregivers)
+* [http://www.gearbox.co.ke/](http://www.gearbox.co.ke/)
+* [http://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/covid19/](http://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/covid19/)
 
 
 10:40-10:50: Danny, Lars: sustainable economic models
 
 
-* https://hoodline.com/2020/04/inside-bay-area-makers-rush-to-solve-the-ppe-shortage
-* https://artisansasylum.com/covid/
+* [https://hoodline.com/2020/04/inside-bay-area-makers-rush-to-solve-the-ppe-shortage](https://hoodline.com/2020/04/inside-bay-area-makers-rush-to-solve-the-ppe-shortage)
+* [https://artisansasylum.com/covid/](https://artisansasylum.com/covid/)
 
 
