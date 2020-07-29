@@ -13,4 +13,4 @@ Emergent Futures
 HOST: Tomas Diez
 
 
-SPEAKERS: Joining soon...
+SPEAKERS: Ron Eglash & Felencia Hutabarat
