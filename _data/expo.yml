@@ -240,3 +240,48 @@
   picture: "RVC-gerardo.png"
   tags: Machine
   
+  
+- title: 'Interactive Dome, by Nuria Robles'
+  text: 'The first inspiration for this project came from a nice group of girls: “Poderosas” that wanted to have sleepover nights in a private space of Fab lab León where they could watch films and stars, play music and also be makers. We decided all together  to make a domo and an interactive pillow capable to move virtual objects on the dome. Fabricademy Final Project 2017.'
+  picture: "domo-nuria.jpg"
+  tags: Instalation
+ 
+
+- title: 'STRANO Microfactory, by Lucrecia Strano Lage'
+  text: 'STRANO is a sustainable microfactory, a biomaterial supplier for designers and artist, for every creative person that choose a new way to produce, consume, and have the courage to believe in this new path. This biomaterial has a huge potential, can adopt any shape, can be rigid or soft. It can be cut by laser cutter and engrave, also sew and knit. This allow to designers to also start their creative process designing their own materials. As designers we have the responsibility to respect our home, this beautiful planet that was given to us, we need to create consumer alternatives now. One of the first steps in every design process starts by choosing the raw material, so if that choice is sustainable, it could spread all the process of the project, doing a whole sustainable work. STRANO was born to empower others projects and believe together in a better world. Fabricademy Final Project 2020.'
+  picture: "strano-lucrecia.png"
+  tags: Sustainability
+
+- title: 'Rizhome, By Angela Barbour'
+  text: 'My Final Project was to create, with the Fabricademy Skills, the costume for my Performance presented in the Serdika Ancient Complex in Sofia, Bulgaria. In this project I assume the character of Esther, that is a woman and also her suitcase, she collects objects and histories from people around the world, and in the Performance takes out these objects from the suitcase and tell their histories. Fabricademy Final Project 2018.'
+  picture: "rizhome-angela.jpg"
+  tags: Wearable
+  
+  
+- title: 'What Iff??, by Loana Flores'
+  text: 'What iff?? It is a soft book to work on sensory integration in children. Starting from illustrations that become a digital embroidery with conductive thread and soft sensors that invite touch. This magic book it aims to introduce the child to a story, inviting him to commit and work on the regulation of different reactions to stimuli through play. Fabricademy Final Project 2019.'
+  picture: "whatif-loana.png"
+  tags: Game
+  
+- title: 'Weather Report, by Felipe Santos Gomes'
+  text: 'Weather Report is an art installation that changes its behavior according to the city you choose. The object gets your input through an online form and uses an open API to know how is the weather and then shows a visual feedback mimicking the weather in the place you chose. It works with pumps, neopixels and a fog generator to simulate the weather conditions. Fab Academy Final Project 2019.'
+  picture: "weather-felipe.jpeg"
+  tags: Instalation
+  
+
+- title: 'Morph3Dbot, by Lena Hagenauer'
+  text: 'Morph3Dbot is a modular robot system for educational use. All required construction parts can be 3D-printed. A special master circuit board manages all attached sensors and actuators via Master-Slave communication. It is also possible to use existing  MCUs such as Arduino or Raspberry Pi. Its modularity and flexibility make it particularly affordable and sustainable, as all parts can be reused. Fab Academy Final Project 2020.'
+  picture: "robot-lena.jpg"
+  tags: Education
+
+
+- title: 'Lixies Weather-Station, by Baptiste Lardais'
+  text: 'A mechanical weather display showing the different skill i learn on the Fabacademy program. It´s using a ESP8266 for collecting the information from the openweathermap.org API. The TFT display is based on Bodmer project i modified. The mechanical parts is based on three ATtiny 1614 board, one for each gear, controlling the stepper motor & LED array. Fab Academy Final Project 20.'
+  picture: "lixies-lardais.png"
+  tags: Furniture Design
+
+- title: 'FabSprout, by Luc Hanneuse'
+  text: 'Seed sprouted have many qualities for nutrition, a lot of vitamins and some seed like the Alflafla are nutritious. The seed sprouting is an ancestral food in many cultures. An automatic seed sprouter make the process really easy. Fab Academy Final Project 2019.'
+  picture: "fabsprout-luc.jpg"
+  tags: Sustainability
+  
