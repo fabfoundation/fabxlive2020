@@ -14,3 +14,8 @@ HOST: Tomas Diez
 
 
 SPEAKERS: Ron Eglash & Felencia Hutabarat
+
+
+[Watch LIVE here](https://www.youtube.com/watch?v=mGR_IcDo0gY)
+
+[Check links during the session here](https://fabxlive.fabevent.org/society)
