@@ -1,6 +1,6 @@
 ---
 title: Closing Session
-picture: "/uploads/fabfinally.png"
+picture: "/uploads/Stripe insta post.png"
 date: 2020-07-31T14:30:00.000+00:00
 ---
 
