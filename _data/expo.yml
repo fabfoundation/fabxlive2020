@@ -370,3 +370,53 @@
   picture: "OMVC-Alejandro.png"
   tags: Data analysis
   
+- title: 'Hotel Castle, by Lena Hagenauer'
+  text: 'Wooden Dungeon Construction kit, for computer-controlled cutting week at Fab Academy 2020.'
+  picture: "dungeon-lena.jpg"
+  tags: Toy
+
+- title: 'MODS - Machine Orchestra in a Distant Society, by Fab Lab Kamakura Students'
+  text: 'A distributed, social distanced orchestra, playing unique instruments; for Machine Group Project week, Fab Academy, 2020.'
+  picture: "MODS-kamakura.png"
+  tags: Musical instrument
+
+- title: 'Calorventus, by Harm Van Vugt'
+  text: 'It displays information about the wind in my kitchen, in a non-intrusive way using ‘calm technology’. This way I can see when is optimal for windsurf adventures. Fab Academy Final Project, 2020.'
+  picture: "calorventus-harm.jpg"
+  tags: Art
+
+- title: 'Smart miniature house, by Hyejin Ahn'
+  text: 'A smart miniature doll house that can be controlled both physically, through buttons, and remotely, through MQTT communication and a mobile app. Fab Academy Final Project, 2020.'
+  picture: "dollhouse-hyejin.png"
+  tags: Toy
+
+- title: 'The fountain of despair, by Robin Wilmart'
+  text: 'Inspired by Shakespeare´s bloodiest play, The fountain of despair pictures the decline of the empire and is meant to be a masterpiece in the scenography of ANATOMY TITUS play. Fab Academy Final Project, 2020.'
+  picture: "fountain-robin.png"
+  tags: Art
+
+- title: 'Weather clock by Baptiste Lardais'
+  text: 'A device that displays Weather forecast and time. Fab Academy Final Project, 2020.'
+  picture: "clock-baptiste.png"
+  tags: Industrial Design
+
+- title: 'Smart PAW, by Nancy Wu'
+  text: 'Smart PAW is a device to give voice and choice to students in crowded classrooms. Fab Academy Final Project, 2020.'
+  picture: "paw-nancy.png"
+  tags: System
+
+- title: 'Fit G, by Hideo Oguri'
+  text: 'Its an electric generator and an exercise machine. The drive simulator (simple toy car on the rolled paper) motivates the person to continue the exercise. The drive simulator consists of the thick & rich-texture materials like felt, blind people can touch and feel it. Fab Academy Final Project, 2020.'
+  picture: "fitg-hideo.png"
+  tags: Machine
+
+- title: 'Salt Factory, by Menghe Xu'
+  text: 'An interactive, chemistry engineering learning tool. Fab Academy Final Project, 2020.'
+  picture: "saltfactory-menghe.png"
+  tags: Educational kit
+
+- title: 'Solar Automatic Schedder'
+  text: 'In Vigyan Ashram we have 2 cows & 12 goats that require 100 kg of feed daily! So I designed a shredder to cut the dry matter to make food for the cattle. This machine requires a continuous power supply, ithis is why this machine is solar powered. Fab Academy Final Project, 2020.'
+  picture: "solarshredder-tejwini.png"
+  tags: System
+  
