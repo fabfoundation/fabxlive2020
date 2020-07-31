@@ -329,3 +329,18 @@
   text: 'An Open Source rubik´s cube solving machine that doesn´t require to recognize the color of the faces to solve. This is achieved when the cube starts fully solved, is randomly scrambled, and then is solved using the CFOP (Fridrich Method) algorithm or the Kociemba algorithms. The CFOP solve is the most conventional solve that a beginner learns, consisting of 40-50 moves. The robot managed a 4.982 seconds solve. Fab Academy Final Project 2020.'
   picture: "rubik-shreyas.png"
   tags: Machine
+  
+- title: 'Autoadjustable Bra, by Eldy Stephanie Lazaro Vasquez'
+  text: 'The auto-adjustable bra combines new technologies such as soft robotics, computational design, and e-textiles to develop a bra which uses a pneumatic system to compensate severe asymmetries in breast volume (Anisomastia).This bra aims to adjust to the measurements of a woman´s breasts through air channels which are located in the internal mesh of the bra cup. Fabricademy Final Project 2018.'
+  picture: "bra-eldy.png"
+  tags: Wearable
+
+- title: 'Smart Seat Management System, by Rooda Omran Al-Qebaisi'
+  text: 'The purpose of developing Smart Seat Management System is to computerize the traditional way of organizing events. It is a web and android application that can be used by participants, volunteers and organizers for coordination using their smart phones or PCs. Fabricademy Final Project 2020.'
+  picture: "seat-rooda.jpg"
+  tags: IoT solution
+
+- title: 'Hand exoskeleton for RA rehabilitation, by Roberto Moya'
+  text: 'The project involves the development of a hand-held exoskeleton through Computer Aided Design (CAD) software and the use of Rapid Prototyping (RP) technologies to assist Rheumatoid Arteriors (RA) patients in their rehabilitation process. Fab Academy 2020.'
+  picture: "hand-roberto.jpeg"
+  tags: Wearable
