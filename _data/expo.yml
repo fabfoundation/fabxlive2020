@@ -325,7 +325,7 @@
   picture: "potone-tatsuro.png"
   tags: Musical Instrument
 
-- title: 'Rubik's Cube Solver, by Shreyas Tiwari'
+- title: 'Rubik´s Cube Solver, by Shreyas Tiwari'
   text: 'An Open Source rubik´s cube solving machine that doesn´t require to recognize the color of the faces to solve. This is achieved when the cube starts fully solved, is randomly scrambled, and then is solved using the CFOP (Fridrich Method) algorithm or the Kociemba algorithms. The CFOP solve is the most conventional solve that a beginner learns, consisting of 40-50 moves. The robot managed a 4.982 seconds solve. Fab Academy Final Project 2020.'
   picture: "rubik-shreyas.png"
   tags: Machine
