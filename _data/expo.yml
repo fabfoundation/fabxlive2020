@@ -305,3 +305,27 @@
   picture: "bombix-ilaria.png"
   tags: Biodesign
   
+- title: 'Motorized translational microscopic stage, by Tatiana Avsievich'
+  text: 'Microscope Automated XY Stage with remote control and backlight. Fab Academy Final Project 2020.'
+  picture: "XY-tatiana.png"
+  tags: Industrial design
+  
+- title: '3D Zoetrope, by Faisal Al-Kilani'
+  text: 'A device that produce the illusion of motion by displaying a sequence (the 3D model and strobes of light) of drawings or photographs showing progressive phases of that motion (rotational motion by a motor). It measures the speed of the motor and adjusts it to a set point by using PID control loop tuning. Fab Academy Final Project 2020.'
+  picture: "zoetrope-faisal.png"
+  tags: Art
+
+- title: 'Interactive Arab World Map, by Wala´a Nezar Al-Zoubi'
+  text: 'The interactive Arab world map is a wall painting that can interact with user through a mobile application. Users choose which country to light and then a brief description of the country is narrated through speakers. Fab Academy Final Project 2020.'
+  picture: "IAWM-willa.png"
+  tags: Educational Kit
+
+- title: 'PoTone, by Tatsuro Homma'
+  text: 'PoTone is an adaptive, interactive and real time MIDI instrument. Multiple players including kids can perform music like eating Asian Pot(鍋) together just by putting object on top. The shape of object is motion-captured and converted to colorful MIDI sounds in real time. Connecting to MQTT, PoTone can play with remote instruments a.k.a Machine Orchestra in Distant Society. Fab Academy Final Project 2020.'
+  picture: "potone-tatsuro.png"
+  tags: Musical Instrument
+
+- title: 'Rubik's Cube Solver, by Shreyas Tiwari'
+  text: 'An Open Source rubik´s cube solving machine that doesn´t require to recognize the color of the faces to solve. This is achieved when the cube starts fully solved, is randomly scrambled, and then is solved using the CFOP (Fridrich Method) algorithm or the Kociemba algorithms. The CFOP solve is the most conventional solve that a beginner learns, consisting of 40-50 moves. The robot managed a 4.982 seconds solve. Fab Academy Final Project 2020.'
+  picture: "rubik-shreyas.png"
+  tags: Machine
