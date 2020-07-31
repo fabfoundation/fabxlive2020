@@ -344,3 +344,29 @@
   text: 'The project involves the development of a hand-held exoskeleton through Computer Aided Design (CAD) software and the use of Rapid Prototyping (RP) technologies to assist Rheumatoid Arteriors (RA) patients in their rehabilitation process. Fab Academy 2020.'
   picture: "hand-roberto.jpeg"
   tags: Wearable
+
+- title: 'Thecncbythesea, by Future Learning Unit, Fab Lab Barcelona'
+  text: 'The ‘CNC by the Sea’ - a CNC machine which draws images in the sand sent from different locations via a remote control. It was set up for the students to access the machines remotely during COVID pandemic, so that students can continue their hands-on projects remotely. It is a 3-axis machine modified to draw in a sandbox, with student input from  home and immediate view via two webcam streams. Research Project in the Lab, 2020.'
+  picture: "sea-flu.jpg"
+  tags: Educational Kit
+
+- title: 'SPML Machine, by Future Learning Unit, Fab Lab Barcelona'
+  text: 'Also known as the Simple-Personal-Mini-Lab or, the Six-Pack-Mobile Lab. The SPML is an open source mini CNC laser machine the same size as a 6-pack of cans (and only costs around €60 to make!) with fully Fabable electronics boards. SMPL suplies new learning dimensions to the educational space. This project reflects on how it is possible to learn almost anything in a lab, school or at home, whilst building skills and key competencies to meet social challenges in an uncertain future. Research Project in the Lab, 2020.'
+  picture: "sixpack-flu.jpg"
+  tags: Educational Kit
+
+- title: 'Origami Bio Bag Project, by Melina Ramírez Goytortúa, Fablab Yucatán'
+  text: 'Origami BioBag  started  on June 2020 when our city of Merida (Yucatan) stopped giving plastic bags in supermarkets; then we decided to experiment with making a bag of Bacterial Cellulose. We do NOT seek to replace plastic, we seek to change disposable thinking for better care, consumption and disposal methodologies. Research Project the Lab, 2020.'
+  picture: "origamibag-melina.png"
+  tags: Sustainability
+
+- title: 'Open Hardware Kit of Bio Digital Fabrication, by FabLab U. de Chile team'
+  text: 'The Open Hardware Kit of Bio Digital Fabrication Tools aims to address different processes and post-processes of bio fabrication, such as manufacture, dehydrated and biodegradation.  Part of the kit is the Biomixer, a machine that can work with 5 different ingredients to form biomaterial sheets. Other machines are 3D printing of biomaterials, thermoforming and rotomolding. Also a drying and dehydration station, and a digital compost bin that speeds up the biodegradation process. The purpose of this project is to make the technologies we have in our laboratories more flexible so that they can interact with local materials and thus diversify the results from a local and network perspective. Research Project in the Lab, 2020.'
+  picture: "biokit-UChile.png"
+  tags: Biology
+
+- title: 'Open multispectral vision Pitahaya camera, by Alejandro Carrillo Gómez, Fablab Yucatán'
+  text: 'I made a multispectral camera, using a Raspberry Pi with 4 dedicated cameras, one to capture only the near infrared light, one to capture only the narrow red bandwidth, one to capture one band in the orange spectrum, and the fourth the I left as RGB camera. I flew it with a drone and was able to analyze a growing area by collecting information with which a plant vitality index, the NDVI index was calculated and comparing the results with those of a laboratory spectrometer seems to work correctly so I want to go to the implementation. Research Project in the Lab, 2020.'
+  picture: "OMVC-Alejandro.png"
+  tags: Data analysis
+  
