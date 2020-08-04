@@ -6,6 +6,9 @@ title: Community
 
 # Community
 
+**Moderator: Sherry Lassiter**
+
+
 Sename Koffi Agbojinou
 * [https://medium.com/@sename/la-le%C3%A7on-du-pangolin-carnet-de-confinement-du-corona-au-colonat-chapitre-4-81b020724522](https://medium.com/@sename/la-le%C3%A7on-du-pangolin-carnet-de-confinement-du-corona-au-colonat-chapitre-4-81b020724522)
 
