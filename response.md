@@ -5,13 +5,17 @@ title: Response
 
 # Global Response COVID-19 Links
 
-9:00-9:05: Neil: introduction
+**Moderator: Neil Gershenfeld**
 
 * [https://gitlab.cba.mit.edu/pub/coronavirus/tracking](https://gitlab.cba.mit.edu/pub/coronavirus/tracking)
 * [https://gitlab.fabcloud.org/pub/project/coronavirus/tracking](https://gitlab.fabcloud.org/pub/project/coronavirus/tracking)
 
+Pranam Chatterjee: Molecular Rapid-Prototyping
 
-9:10-9:25: Jonathan, Zach, Alfonso, Willie, Stephanie, Zaid: design, simulation, prototyping, cutting, folding, testing the shield and isolation box
+* [http://news.mit.edu/2020/peptide-binds-covid-19-proteins-0622](http://news.mit.edu/2020/peptide-binds-covid-19-proteins-0622)
+
+
+Jonathan Jilesen, Zach Fredin, Alfonso Parra Rubio, Willie E. Baker, Stephanie Stapleton, Zaid Altawil: Design, Simulation, Prototyping, Cutting, Folding, Testing the shield and isolation box
 
 
 * [https://www.3ds.com/products-services/simulia](https://www.3ds.com/products-services/simulia)
@@ -25,7 +29,7 @@ title: Response
 * [http://www.bumc.bu.edu/emergencymedicine/](http://www.bumc.bu.edu/emergencymedicine/)
 
 
-9:30-9:45: Josef, Max, Suchit: redirecting your companies
+Josef Prusa, Maxim Lobovsky, Suchit Jain: Redirecting your Companies
 
 
 * [https://www.prusa3d.com/covid19/](https://www.prusa3d.com/covid19/)
@@ -33,7 +37,7 @@ title: Response
 * [https://3dexperiencelab.3ds.com/en/projects/fablab/open-covid-19/](https://3dexperiencelab.3ds.com/en/projects/fablab/open-covid-19/)
 
 
-9:50-10:05: Dan, Roberto, Cesar: organizing makers
+Dan Meyer, Roberto García, Cesar Garcia: Organizing Makers
 
 
 * [https://www.makery.info/en/2020/06/17/english-spanish-makers-ongoing-fight-against-covid-19/](https://www.makery.info/en/2020/06/17/english-spanish-makers-ongoing-fight-against-covid-19/)
@@ -42,7 +46,7 @@ title: Response
 * [https://www.somosrim.org/](https://www.somosrim.org/)
 
 
-10:10-10:25: Martina, Alysia, Joel: rapid response vs regulation
+Martina Francesca Ferracane, Alysia Garmulewicz, Joel Gershenfeld: Rapid Response vs Regulation
 
 
 * [https://www.theverge.com/2020/3/17/21184308/coronavirus-italy-medical-3d-print-valves-treatments](https://www.theverge.com/2020/3/17/21184308/coronavirus-italy-medical-3d-print-valves-treatments)
@@ -50,7 +54,7 @@ title: Response
 * [http://designingreality.org/](http://designingreality.org/)
 
 
-10:25-10:35: Alex, Kamau, Manu: beyond supply chains
+Alex Ntale, Kamau Gachigi, Manu Prakash: Beyond Supply Chains
 
 
 * [https://www.npr.org/sections/goatsandsoda/2020/07/15/889802561/a-covid-19-success-story-in-rwanda-free-testing-robot-caregivers](https://www.npr.org/sections/goatsandsoda/2020/07/15/889802561/a-covid-19-success-story-in-rwanda-free-testing-robot-caregivers)
@@ -58,7 +62,7 @@ title: Response
 * [http://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/covid19/](http://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/covid19/)
 
 
-10:40-10:50: Danny, Lars: sustainable economic models
+Danny Beesley, Lars Hasselblad Torres: Sustainable Economic Models
 
 
 * [https://hoodline.com/2020/04/inside-bay-area-makers-rush-to-solve-the-ppe-shortage](https://hoodline.com/2020/04/inside-bay-area-makers-rush-to-solve-the-ppe-shortage)
