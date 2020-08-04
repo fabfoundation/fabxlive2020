@@ -13,7 +13,8 @@ Sename Koffi Agbojinou
 * [https://medium.com/@sename/la-le%C3%A7on-du-pangolin-carnet-de-confinement-du-corona-au-colonat-chapitre-4-81b020724522](https://medium.com/@sename/la-le%C3%A7on-du-pangolin-carnet-de-confinement-du-corona-au-colonat-chapitre-4-81b020724522)
 
 Peter Raymond
-* TBD
+* [SPARROW co-ventilation device FDA EUA](https://www.newbureau.com/sparrow-fda-eua201679)
+* [CLAIM8 Global Intelligence platform](https://www.claim-8.com/c8-covid-19)
 
 Christie Mettes and Tony Sevold
 * They will add their progress so far to their wiki  and share that with us: wiki.brenchies.com
