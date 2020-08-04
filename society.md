@@ -5,15 +5,17 @@ title: Society
 
 # Emergent Futures
 
-Tomas Diez
+**Moderator: Tomas Diez**
 
 Ron Eglash
+TBD
 
 Felencia Hutabarat
 * [https://honf.org/hack-from-home/](https://honf.org/hack-from-home/)
 
 Carmen Wedge & Ece Tankal
 * [https://speculativeedu.eu/interview-hyphen-labs/](https://speculativeedu.eu/interview-hyphen-labs/)
+* [http://hyphen-labs.com/](http://hyphen-labs.com/)
 
 Tomás Vivanco
 * [https://uc-cl.academia.edu/TomasVivanco](https://uc-cl.academia.edu/TomasVivanco)
@@ -21,9 +23,11 @@ Tomás Vivanco
 
 Alejandra Díaz
 * [https://www.researchgate.net/profile/Alejandra_Diaz_De_Leon_Lastras](https://www.researchgate.net/profile/Alejandra_Diaz_De_Leon_Lastras)
+* [https://www.facebook.com/fablatkids/](https://www.facebook.com/fablatkids/)
 
 
 Robert Garita
+* [www.robertgarita.com](www.robertgarita.com)
 
 
 
