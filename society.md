@@ -8,7 +8,9 @@ title: Society
 **Moderator: Tomas Diez**
 
 Ron Eglash
-TBD
+* [FABxLive Powerpoint presentation](https://docs.google.com/presentation/d/1KxDj0PNivPWBdXDAdcGyS71_2n7-LNjkHp_POQs220Y/edit)
+* [https://csdt.org/](https://csdt.org/)
+* [https://generativejustice.org/](https://generativejustice.org/)
 
 Felencia Hutabarat
 * [https://honf.org/hack-from-home/](https://honf.org/hack-from-home/)
