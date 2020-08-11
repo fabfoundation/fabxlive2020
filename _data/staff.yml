@@ -17,11 +17,7 @@
 
 - name: Luciana Asinari
   text: General Content
-  picture: luciana.png
-
-- name: Ojas Chouhan
-  text: IT
-  picture: ojas.png
+  picture: lu.png
   
 - name: Daniela Viloria
   text: Moderator
@@ -43,10 +39,6 @@
   text: Moderator
   picture: stella.png
   
-- name: Guillermo Gil Aitken
-  text: IT
-  picture: guillermo.png
-  
 - name: Angela Barbour
   text: Moderator
   picture: angela.png
@@ -59,18 +51,9 @@
   text: General Content
   picture: ali.png 
   
-- name: Siddharth Arya
-  text: IT
-  picture: siddharth.png 
-  
-- name: Syed Junaid Ahmed
-  text: IT
-  picture: syed.png
-  
 - name: Fares Alshamali
   text: General Content
   picture: fares.png
-  
 
   
 
