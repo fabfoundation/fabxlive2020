@@ -2,5 +2,27 @@
 - url: 'http://fab.lat/'
   filename: 'lat.png'
 
-- url: ''
-  filename: ''
+- url: 'http://fabtextiles.org/'
+  filename: 'fabtextiles.png'
+
+- url: 'https://fablabbcn.org/'
+  filename: 'FabLabBCN.png'
+
+- url: 'https://www.echofab.quebec/'
+  filename: 'echofab.png'
+
+- url: 'https://makespacemadrid.org/'
+  filename: 'makespacemadrid.png'
+
+- url: 'https://www.oulu.fi/fablab/'
+  filename: 'fablaboulu.jpg'
+
+- url: 'https://distributeddesign.eu/'
+  filename: 'DDMP.png'
+
+- url: 'http://fablabnewton.com.br/'
+  filename: 'FabLabNewton.jpg'
+
+- url: 'https://www.fab.pe/'
+  filename: 'fablabperu.png'
+ 
