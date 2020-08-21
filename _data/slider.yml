@@ -1,26 +1,26 @@
 ---
-- title: Join today
-  text: 'Online event in 2020'
-  url: https://fabxmembers.fabevent.org/
+- title: Watch Now
+  text: 
+  url: https://www.youtube.com/fabfndn
   image: B-1.png
 
-- title: Apply for workshop
+- title: Check the full playlist
   text: 
-  url: https://fabxlive.fabevent.org/#participate
+  url: https://www.youtube.com/c/fabfndn/playlists
   image: B-2.png
 
-- title: 
+- title: FabSymposium Here
   text: 
-  url:
+  url: https://www.youtube.com/watch?v=1n7UnnqU5uE&list=PLLgC0nB1k-MMVP9Exfbp_AA94P3LhNowe&index=2
   image: B-3.png
 
 
-- title:
+- title: Join the Network
   text: 
-  url:
+  url: https://fabxmembers.fabevent.org/
   image: B-4.png
 
-- title: Apply today
+- title: Check it out
   text: 
-  url: https://fabxlive.fabevent.org/schedule
+  url: https://www.youtube.com/fabfndn
   image: B-5.png
