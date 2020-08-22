@@ -2,27 +2,32 @@
 - url: 'http://fab.lat/'
   filename: 'lat.png'
 
-- url: 'http://fabtextiles.org/'
-  filename: 'fabtextiles.png'
-
-- url: 'https://fablabbcn.org/'
-  filename: 'FabLabBCN.png'
-
 - url: 'https://www.echofab.quebec/'
-  filename: 'echofab.png'
-
-- url: 'https://makespacemadrid.org/'
-  filename: 'makespacemadrid.png'
-
-- url: 'https://www.oulu.fi/fablab/'
-  filename: 'fablaboulu.jpg'
-
-- url: 'https://distributeddesign.eu/'
-  filename: 'DDMP.png'
+  filename: 'c-2.png'
 
 - url: 'http://fablabnewton.com.br/'
-  filename: 'FabLabNewton.jpg'
+  filename: 'c-3.png'
+
+- url: 'http://fabtextiles.org/'
+  filename: 'c-4.png'
+
+- url: 'https://www.oulu.fi/fablab/'
+  filename: 'c-5.png'
+
+- url: 'https://fablabbcn.org/'
+  filename: 'c-6.png'
+
+- url: 'https://makespacemadrid.org/'
+  filename: 'c-7.png'
+
+- url: 'https://distributeddesign.eu/'
+  filename: 'c-8.png'
 
 - url: 'https://www.fab.pe/'
   filename: 'fablabperu.png'
- 
+
+- url: 'https://beachlab.org/'
+  filename: 'c-9.png'
+
+- url: 'http://fabacademy.org/'
+  filename: 'c-11.png'
