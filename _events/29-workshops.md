@@ -9,4 +9,4 @@ knowledge and your thoughts around a particular
 topic with a discussion-based Theoretical workshop 
 or Hands-on workshops. 
 
-For more details and options to participate go to:
+[Watch Videos here](https://www.youtube.com/watch?v=KdXbKii3AsE&list=PLLgC0nB1k-MNyaAZF61KkqNmH_rfEiIHZ)
