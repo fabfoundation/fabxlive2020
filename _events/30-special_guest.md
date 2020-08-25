@@ -13,7 +13,7 @@ Emergent Futures
 HOST: Tomas Diez
 
 
-SPEAKERS: Ron Eglash & Felencia Hutabarat
+SPEAKERS: Ron Eglash, Felencia Hutabarat, Carmen Wedge & Ece Tankal, Tomás Vivanco, Alejandra Díaz, Robert Garita
 
 
 [Watch LIVE here](https://www.youtube.com/watch?v=mGR_IcDo0gY)
